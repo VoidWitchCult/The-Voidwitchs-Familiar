@@ -1,0 +1,11 @@
+{
+    "Name": "Void's weird Wonders - The Voidwitch's Familiar Shop",
+    "Author": "VoidWitchCult",
+    "Version": "1.3.0",
+    "Description": "An odd creature appears at the busstop.",
+    "UniqueID": "VoidWitchCult.CP.VoidWitchFamiliar",
+    "UpdateKeys": ["nexus:18958"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

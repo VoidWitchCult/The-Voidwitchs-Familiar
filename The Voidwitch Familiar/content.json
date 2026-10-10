@@ -1,0 +1,35 @@
+{
+	"Format": "2.9.0",
+	"Changes": [
+		// MAP RELATED THINGS
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"FromFile": "assets/Maps/Custom_Faust_BusStop.tmx",
+			"ToArea": {
+				"X": 15,
+				"Y": 20,
+				"Width": 1,
+				"Height": 2
+			},
+			"PatchMode": "Overlay",
+			"When":
+            {
+                "HasSeenEvent": "191393, 502261",
+			},
+			"Update": "OnTimeChange",
+		},
+		// VARIOUS LOADS
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/vww_familiar_crops, Mods/{{ModID}}/vww_familiar_objects",
+			"FromFile": "assets/Items/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
+		},
+		// INCLUDES
+		{
+			"LogName": "Include Item Data",
+			"Action": "Include",
+			"FromFile": "Data/ItemData/crops.json, Data/ItemData/objects.json, Data/ItemData/NPCGiftTastes.json, Data/ItemData/CookingRecipes.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/BigCraftables.json, Data/Shops.json, Data/FaustNPC.json, Data/Events.json",
+		},
+	],
+}

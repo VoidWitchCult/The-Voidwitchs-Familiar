@@ -1,0 +1,1398 @@
+{
+    "Changes": [
+		////////////
+		// SEEDS //
+		//////////
+        {
+			"LogName": "Seeds",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_BlackNightshadeBerriesSeeds": {
+                    "Name": "{{ModID}}_BlackNightshadeBerriesSeeds",
+                    "Displayname": "{{i18n:BlackNightshadeBerries.name}}",
+                    "Description": "{{i18n:BlackNightshadeBerries.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 0,
+					"ContextTags": [
+                        "season_fall",
+                        "fruit_item",
+                        "color_black"
+					]
+				},
+                "{{ModID}}_BlackPearlPepperSeeds": {
+                    "Name": "{{ModID}}_BlackPearlPepperSeeds",
+                    "Displayname": "{{i18n:BlackPearlPepper.name}}",
+                    "Description": "{{i18n:BlackPearlPepper.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 1,
+					"ContextTags": [
+                        "season_fall",
+                        "fruit_item",
+                        "color_red"
+					]
+				},
+                "{{ModID}}_DarkDimensionHyacinthSeeds": {
+                    "Name": "{{ModID}}_DarkDimensionHyacinthSeeds",
+                    "Displayname": "{{i18n:DarkDimensionHyacinth.name}}",
+                    "Description": "{{i18n:DarkDimensionHyacinth.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 2,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_purple"
+					]
+				},
+                "{{ModID}}_MidnightCornSeeds": {
+                    "Name": "{{ModID}}_MidnightCornSeeds",
+                    "Displayname": "{{i18n:MidnightCorn.name}}",
+                    "Description": "{{i18n:MidnightCorn.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 3,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_blue"
+					]
+				},
+                "{{ModID}}_MidnightPAINsiesSeeds": {
+                    "Name": "{{ModID}}_MidnightPAINsiesSeeds",
+                    "Displayname": "{{i18n:MidnightPAINsies.name}}",
+                    "Description": "{{i18n:MidnightPAINsies.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 4,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+                "{{ModID}}_MidnightSunflowerSeeds": {
+                    "Name": "{{ModID}}_MidnightSunflowerSeeds",
+                    "Displayname": "{{i18n:MidnightSunflower.name}}",
+                    "Description": "{{i18n:MidnightSunflower.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 5,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_orange"
+					]
+				},
+                "{{ModID}}_PurpleOpalBasilSeeds": {
+                    "Name": "{{ModID}}_PurpleOpalBasilSeeds",
+                    "Displayname": "{{i18n:PurpleOpalBasil.name}}",
+                    "Description": "{{i18n:PurpleOpalBasil.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 6,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_purple"
+					]
+				},
+                "{{ModID}}_QueenoftheNightTulipSeeds": {
+                    "Name": "{{ModID}}_QueenoftheNightTulipSeeds",
+                    "Displayname": "{{i18n:QueenoftheNightTulip.name}}",
+                    "Description": "{{i18n:QueenoftheNightTulip.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 7,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+                "{{ModID}}_RedSpiderLilySeeds": {
+                    "Name": "{{ModID}}_RedSpiderLilySeeds",
+                    "Displayname": "{{i18n:RedSpiderLily.name}}",
+                    "Description": "{{i18n:RedSpiderLily.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 8,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+                "{{ModID}}_WineredCornSeeds": {
+                    "Name": "{{ModID}}_WineredCornSeeds",
+                    "Displayname": "{{i18n:WineredCorn.name}}",
+                    "Description": "{{i18n:WineredCorn.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 9,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+                "{{ModID}}_WineredPAINsiesSeeds": {
+                    "Name": "{{ModID}}_WineredPAINsiesSeeds",
+                    "Displayname": "{{i18n:WineredPAINsies.name}}",
+                    "Description": "{{i18n:WineredPAINsies.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 10,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+				"{{ModID}}_ColocasiaBlackMagicSeeds": {
+                    "Name": "{{ModID}}_ColocasiaBlackMagicSeeds",
+                    "Displayname": "{{i18n:ColocasiaBlackMagic.name}}",
+                    "Description": "{{i18n:ColocasiaBlackMagic.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 120,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 45,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+				"{{ModID}}_BlackMambaPetuniaSeeds": {
+                    "Name": "{{ModID}}_BlackMambaPetuniaSeeds",
+                    "Displayname": "{{i18n:BlackMambaPetunia.name}}",
+                    "Description": "{{i18n:BlackMambaPetunia.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 46,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_gray"
+					]
+				},
+				"{{ModID}}_CarnivorousCobraLilySeeds": {
+                    "Name": "{{ModID}}_CarnivorousCobraLilySeeds",
+                    "Displayname": "{{i18n:CarnivorousCobraLily.name}}",
+                    "Description": "{{i18n:CarnivorousCobraLily.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 47,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_green"
+					]
+				},
+				"{{ModID}}_BlackPrinceSnapdragonSeeds": {
+                    "Name": "{{ModID}}_BlackPrinceSnapdragonSeeds",
+                    "Displayname": "{{i18n:BlackPrinceSnapdragon.name}}",
+                    "Description": "{{i18n:BlackPrinceSnapdragon.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 48,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+				"{{ModID}}_BelladonnaSeeds": {
+                    "Name": "{{ModID}}_BelladonnaSeeds",
+                    "Displayname": "{{i18n:Belladonna.name}}",
+                    "Description": "{{i18n:Belladonna.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 49,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PerillaFrutescensSeeds": {
+                    "Name": "{{ModID}}_PerillaFrutescensSeeds",
+                    "Displayname": "{{i18n:PerillaFrutescens.name}}",
+                    "Description": "{{i18n:PerillaFrutescens.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 50,
+					"ContextTags": [
+                        "season_fall",
+                        "herb_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PurpleShamrockSeeds": {
+                    "Name": "{{ModID}}_PurpleShamrockSeeds",
+                    "Displayname": "{{i18n:PurpleShamrock.name}}",
+                    "Description": "{{i18n:PurpleShamrock.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 80,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 51,
+					"ContextTags": [
+                        "season_fall",
+                        "herb_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PurpleArtichokeSeeds": {
+                    "Name": "{{ModID}}_PurpleArtichokeSeeds",
+                    "Displayname": "{{i18n:PurpleArtichoke.name}}",
+                    "Description": "{{i18n:PurpleArtichoke.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 52,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_HelloDarknessIrisSeeds": {
+                    "Name": "{{ModID}}_HelloDarknessIrisSeeds",
+                    "Displayname": "{{i18n:HelloDarknessIris.name}}",
+                    "Description": "{{i18n:HelloDarknessIris.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 53,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+				"{{ModID}}_MidnightRufflesSeeds": {
+                    "Name": "{{ModID}}_MidnightRufflesSeeds",
+                    "Displayname": "{{i18n:MidnightRuffles.name}}",
+                    "Description": "{{i18n:MidnightRuffles.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 350,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 54,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+			},
+		},
+		//////////////
+		// PRODUCE //
+		////////////
+		{
+			"LogName": "Crop Produce",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_BlackNightshadeBerries": {
+                    "Name": "{{ModID}}_BlackNightshadeBerries",
+                    "Displayname": "{{i18n:BlackNightshadeBerries.name}}",
+                    "Description": "{{i18n:BlackNightshadeBerries.description}}",
+                    "Type": "Fruit",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 11,
+					"ContextTags": [
+                        "season_fall",
+                        "fruit_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_BlackPearlPepper": {
+                    "Name": "{{ModID}}_BlackPearlPepper",
+                    "Displayname": "{{i18n:BlackPearlPepper.name}}",
+                    "Description": "{{i18n:BlackPearlPepper.description}}",
+                    "Type": "Fruit",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 12,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_DarkDimensionHyacinth": {
+                    "Name": "{{ModID}}_DarkDimensionHyacinth",
+                    "Displayname": "{{i18n:DarkDimensionHyacinth.name}}",
+                    "Description": "{{i18n:DarkDimensionHyacinth.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 13,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_MidnightCorn": {
+                    "Name": "{{ModID}}_MidnightCorn",
+                    "Displayname": "{{i18n:MidnightCorn.name}}",
+                    "Description": "{{i18n:MidnightCorn.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 14,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_MidnightPAINsies": {
+                    "Name": "{{ModID}}_MidnightPAINsies",
+                    "Displayname": "{{i18n:MidnightPAINsies.name}}",
+                    "Description": "{{i18n:MidnightPAINsies.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 15,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_MidnightSunflower": {
+                    "Name": "{{ModID}}_MidnightSunflower",
+                    "Displayname": "{{i18n:MidnightSunflower.name}}",
+                    "Description": "{{i18n:MidnightSunflower.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 16,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_PurpleOpalBasil": {
+                    "Name": "{{ModID}}_PurpleOpalBasil",
+                    "Displayname": "{{i18n:PurpleOpalBasil.name}}",
+                    "Description": "{{i18n:PurpleOpalBasil.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 17,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_QueenoftheNightTulip": {
+                    "Name": "{{ModID}}_QueenoftheNightTulip",
+                    "Displayname": "{{i18n:QueenoftheNightTulip.name}}",
+                    "Description": "{{i18n:QueenoftheNightTulip.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 18,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_RedSpiderLily": {
+                    "Name": "{{ModID}}_RedSpiderLily",
+                    "Displayname": "{{i18n:RedSpiderLily.name}}",
+                    "Description": "{{i18n:RedSpiderLily.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 19,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_WineredCorn": {
+                    "Name": "{{ModID}}_WineredCorn",
+                    "Displayname": "{{i18n:WineredCorn.name}}",
+                    "Description": "{{i18n:WineredCorn.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 20,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				}, 
+                "{{ModID}}_WineredPAINsies": {
+                    "Name": "{{ModID}}_WineredPAINsies",
+                    "Displayname": "{{i18n:WineredPAINsies.name}}",
+                    "Description": "{{i18n:WineredPAINsies.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 21,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+				"{{ModID}}_ColocasiaBlackMagic": {
+                    "Name": "{{ModID}}_ColocasiaBlackMagic",
+                    "Displayname": "{{i18n:ColocasiaBlackMagic.name}}",
+                    "Description": "{{i18n:ColocasiaBlackMagic.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 120,
+					"Edibility": "60",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 55,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+				"{{ModID}}_BlackMambaPetunia": {
+                    "Name": "{{ModID}}_BlackMambaPetunia",
+                    "Displayname": "{{i18n:BlackMambaPetunia.name}}",
+                    "Description": "{{i18n:BlackMambaPetunia.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 200,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 56,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_gray"
+					]
+				},
+				"{{ModID}}_CarnivorousCobraLily": {
+                    "Name": "{{ModID}}_CarnivorousCobraLily",
+                    "Displayname": "{{i18n:CarnivorousCobraLily.name}}",
+                    "Description": "{{i18n:CarnivorousCobraLily.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 150,
+					"Edibility": "-99",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 57,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_green"
+					]
+				},
+				"{{ModID}}_BlackPrinceSnapdragon": {
+                    "Name": "{{ModID}}_BlackPrinceSnapdragon",
+                    "Displayname": "{{i18n:BlackPrinceSnapdragon.name}}",
+                    "Description": "{{i18n:BlackPrinceSnapdragon.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 100,
+					"Edibility": "20",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 58,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_red"
+					]
+				},
+				"{{ModID}}_Belladonna": {
+                    "Name": "{{ModID}}_Belladonna",
+                    "Displayname": "{{i18n:Belladonna.name}}",
+                    "Description": "{{i18n:Belladonna.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 250,
+					"Edibility": "-99",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 59,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PerillaFrutescens": {
+                    "Name": "{{ModID}}_PerillaFrutescens",
+                    "Displayname": "{{i18n:PerillaFrutescens.name}}",
+                    "Description": "{{i18n:PerillaFrutescens.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 80,
+					"Edibility": "80",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 60,
+					"ContextTags": [
+                        "season_fall",
+                        "herb_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PurpleShamrock": {
+                    "Name": "{{ModID}}_PurpleShamrock",
+                    "Displayname": "{{i18n:PurpleShamrock.name}}",
+                    "Description": "{{i18n:PurpleShamrock.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 80,
+					"Edibility": "30",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 61,
+					"ContextTags": [
+                        "season_fall",
+                        "herb_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_PurpleArtichoke": {
+                    "Name": "{{ModID}}_PurpleArtichoke",
+                    "Displayname": "{{i18n:PurpleArtichoke.name}}",
+                    "Description": "{{i18n:PurpleArtichoke.description}}",
+                    "Type": "Vegetable",
+                    "Category": -80,
+                    "Price": 250,
+					"Edibility": "80",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 62,
+					"ContextTags": [
+                        "season_fall",
+                        "vegetable_item",
+                        "color_purple"
+					]
+				},
+				"{{ModID}}_HelloDarknessIris": {
+                    "Name": "{{ModID}}_HelloDarknessIris",
+                    "Displayname": "{{i18n:HelloDarknessIris.name}}",
+                    "Description": "{{i18n:HelloDarknessIris.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 250,
+					"Edibility": "35",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 63,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+				"{{ModID}}_MidnightRuffles": {
+                    "Name": "{{ModID}}_MidnightRuffles",
+                    "Displayname": "{{i18n:MidnightRuffles.name}}",
+                    "Description": "{{i18n:MidnightRuffles.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 350,
+					"Edibility": "50",
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 64,
+					"ContextTags": [
+                        "season_fall",
+                        "flower_item",
+                        "color_black"
+					]
+				},
+			},
+		},
+		///////////
+		// FOOD //
+		/////////
+		{
+            "LogName": "Add Food",
+			"Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_BloodyAccidentFloat": {
+                    "Name": "{{ModID}}_BloodyAccidentFloat",
+                    "DisplayName": "{{i18n:BloodyAccidentFloat.Name}}",
+                    "Description": "{{i18n:BloodyAccidentFloat.Description}}",
+                    "Edibility": "80",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 22,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 4,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_red",
+						"drink_item"
+					],
+				},
+				"{{ModID}}_BloodyCandyApple": {
+                    "Name": "{{ModID}}_BloodyCandyApple",
+                    "DisplayName": "{{i18n:BloodyCandyApple.Name}}",
+                    "Description": "{{i18n:BloodyCandyApple.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 23,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 5,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_BoneyBisquits": {
+                    "Name": "{{ModID}}_BoneyBisquits",
+                    "DisplayName": "{{i18n:BoneyBisquits.Name}}",
+                    "Description": "{{i18n:BoneyBisquits.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 24,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 2,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_white",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_BowlOPeppers": {
+                    "Name": "{{ModID}}_BowlOPeppers",
+                    "DisplayName": "{{i18n:BowlOPeppers.Name}}",
+                    "Description": "{{i18n:BowlOPeppers.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 25,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 5,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_CursedCandyApple": {
+                    "Name": "{{ModID}}_CursedCandyApple",
+                    "DisplayName": "{{i18n:CursedCandyApple.Name}}",
+                    "Description": "{{i18n:CursedCandyApple.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 26,
+                    "Buffs": [{
+                        "Duration": 500,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 6,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_green",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_GhastlyCryptRollcake": {
+                    "Name": "{{ModID}}_GhastlyCryptRollcake",
+                    "DisplayName": "{{i18n:GhastlyCryptRollcake.Name}}",
+                    "Description": "{{i18n:GhastlyCryptRollcake.Description}}",
+                    "Edibility": "80",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 27,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 2,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 5,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_GhastlyGhostCupcake": {
+                    "Name": "{{ModID}}_GhastlyGhostCupcake",
+                    "DisplayName": "{{i18n:GhastlyGhostCupcake.Name}}",
+                    "Description": "{{i18n:GhastlyGhostCupcake.Description}}",
+                    "Edibility": "70",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 28,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 2,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_white",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_GutlessGlory": {
+                    "Name": "{{ModID}}_GutlessGlory",
+                    "DisplayName": "{{i18n:GutlessGlory.Name}}",
+                    "Description": "{{i18n:GutlessGlory.Description}}",
+                    "Edibility": "100",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 666,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 29,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 8,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_IridiumSnakeMalk": {
+                    "Name": "{{ModID}}_IridiumSnakeMalk",
+                    "DisplayName": "{{i18n:IridiumSnakeMalk.Name}}",
+                    "Description": "{{i18n:IridiumSnakeMalk.Description}}",
+                    "Edibility": "50",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 30,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 3,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 10,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_purple",
+						"drink_item"
+					],
+				},
+				"{{ModID}}_KillerChocolateTruffle": {
+                    "Name": "{{ModID}}_KillerChocolateTruffle",
+                    "DisplayName": "{{i18n:KillerChocolateTruffle.Name}}",
+                    "Description": "{{i18n:KillerChocolateTruffle.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 31,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 2,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 2,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_MonsterBlueCupcake": {
+                    "Name": "{{ModID}}_MonsterBlueCupcake",
+                    "DisplayName": "{{i18n:MonsterBlueCupcake.Name}}",
+                    "Description": "{{i18n:MonsterBlueCupcake.Description}}",
+                    "Edibility": "50",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 32,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": -2,
+							"Defense": 0,
+							"Attack": 4,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_blue",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PoisonedCandyApple": {
+                    "Name": "{{ModID}}_PoisonedCandyApple",
+                    "DisplayName": "{{i18n:PoisonedCandyApple.Name}}",
+                    "Description": "{{i18n:PoisonedCandyApple.Description}}",
+                    "Edibility": "50",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 33,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 10,
+							"Foraginglevel": 0,
+							"MaxStamina": -2,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": -4,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_green",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PumpkinCheesecakeTrifle": {
+                    "Name": "{{ModID}}_PumpkinCheesecakeTrifle",
+                    "DisplayName": "{{i18n:PumpkinCheesecakeTrifle.Name}}",
+                    "Description": "{{i18n:PumpkinCheesecakeTrifle.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 34,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 2,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PumpkinCremeBrulee": {
+                    "Name": "{{ModID}}_PumpkinCremeBrulee",
+                    "DisplayName": "{{i18n:PumpkinCremeBrulee.Name}}",
+                    "Description": "{{i18n:PumpkinCremeBrulee.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 35,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 4,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 4,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_RadioactiveWormSoup": {
+                    "Name": "{{ModID}}_RadioactiveWormSoup",
+                    "DisplayName": "{{i18n:RadioactiveWormSoup.Name}}",
+                    "Description": "{{i18n:RadioactiveWormSoup.Description}}",
+                    "Edibility": "90",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 36,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 6,
+							"Foraginglevel": 0,
+							"MaxStamina": 6,
+							"MagneticRadius": 0,
+							"Speed": -2,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_green",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_SpiderChocolateBrownie": {
+                    "Name": "{{ModID}}_SpiderChocolateBrownie",
+                    "DisplayName": "{{i18n:SpiderChocolateBrownie.Name}}",
+                    "Description": "{{i18n:SpiderChocolateBrownie.Description}}",
+                    "Edibility": "40",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 37,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 2,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_SunsetSpells": {
+                    "Name": "{{ModID}}_SunsetSpells",
+                    "DisplayName": "{{i18n:SunsetSpells.Name}}",
+                    "Description": "{{i18n:SunsetSpells.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 38,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 3,
+							"Speed": 3,
+							"Defense": -2,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_orange",
+						"drink_item"
+					],
+				},
+				"{{ModID}}_SuspiciousLiquor": {
+                    "Name": "{{ModID}}_SuspiciousLiquor",
+                    "DisplayName": "{{i18n:SuspiciousLiquor.Name}}",
+                    "Description": "{{i18n:SuspiciousLiquor.Description}}",
+                    "Edibility": "20",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 39,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 10,
+							"Defense": -5,
+							"Attack": -5,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_black",
+						"drink_item"
+					],
+				},
+				"{{ModID}}_SuspiciousLurkerCookies": {
+                    "Name": "{{ModID}}_SuspiciousLurkerCookies",
+                    "DisplayName": "{{i18n:SuspiciousLurkerCookies.Name}}",
+                    "Description": "{{i18n:SuspiciousLurkerCookies.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 40,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_gray",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_VampiricRoots": {
+                    "Name": "{{ModID}}_VampiricRoots",
+                    "DisplayName": "{{i18n:VampiricRoots.Name}}",
+                    "Description": "{{i18n:VampiricRoots.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 41,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 3,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_redn",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_VoidWitchSignatureSoup": {
+                    "Name": "{{ModID}}_VoidWitchSignatureSoup",
+                    "DisplayName": "{{i18n:VoidWitchSignatureSoup.Name}}",
+                    "Description": "{{i18n:VoidWitchSignatureSoup.Description}}",
+                    "Edibility": "200",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 42,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 3,
+							"MiningLevel": 0,
+							"LuckLevel": 5,
+							"Foraginglevel": 0,
+							"MaxStamina": 5,
+							"MagneticRadius": 0,
+							"Speed": 5,
+							"Defense": 0,
+							"Attack": 5,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_purple",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_WineredPepperSoup": {
+                    "Name": "{{ModID}}_WineredPepperSoup",
+                    "DisplayName": "{{i18n:WineredPepperSoup.Name}}",
+                    "Description": "{{i18n:WineredPepperSoup.Description}}",
+                    "Edibility": "30",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 43,
+                    "Buffs": [{
+                        "Duration": 100,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 2,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_red",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_WitchyGreenCupcake": {
+                    "Name": "{{ModID}}_WitchyGreenCupcake",
+                    "DisplayName": "{{i18n:WitchyGreenCupcake.Name}}",
+                    "Description": "{{i18n:WitchyGreenCupcake.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 44,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 4,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 4,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_brown",
+						"cooking_item"
+					],
+				},
+			},
+		},
+	]
+}

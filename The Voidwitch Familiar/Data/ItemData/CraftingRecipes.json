@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add Crafting Recipes",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"{{ModID}}_WeirdScarecrow": "{{ModID}}_WineredPAINsies 5 {{ModID}}_PurpleOpalBasil 2 (O)388 5/Home/{{ModID}}_WeirdScarecrow/true/none/{{i18n:weirdscarecrow.Name}}",
+			}
+		}
+	]
+}

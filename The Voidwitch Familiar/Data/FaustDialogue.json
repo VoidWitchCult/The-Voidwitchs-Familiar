@@ -1,0 +1,41 @@
+{
+    "Changes": 
+	[
+		{
+            "LogFaust": "Faust Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{ModID}}_Faust",
+            "Entries": 	
+            {
+				"Introduction": "{{i18n:Faust.Dialogue.Introduction}}",
+				
+				// UCR Additions
+				"DumpsterDiveComment": "{{i18n:Faust.Dialogue.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Faust.Dialogue.HitBySlingshot}}",
+				"GreenRain": "{{i18n:Faust.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Faust.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Faust.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				
+				// 1ST OF SEASON DIALOGUE
+				"spring_1": "{{i18n:Faust.Dialogue.spring_1}}",
+				"summer_1": "{{i18n:Faust.Dialogue.summer_1}}",
+				"fall_1": "{{i18n:Faust.Dialogue.fall_1}}",
+				"winter_1": "{{i18n:Faust.Dialogue.winter_1}}",
+				
+				// 0 HEARTS DIALOGUE
+				"Mon": "{{i18n:Faust.Dialogue.Mon.{{Random: 0, 10}}}}",
+				"Tue": "{{i18n:Faust.Dialogue.Tue.{{Random: 0, 10}}}}",
+				"Wed": "{{i18n:Faust.Dialogue.Wed.{{Random: 0, 10}}}}",
+				"Thu": "{{i18n:Faust.Dialogue.Thu.{{Random: 0, 10}}}}",
+				"Fri": "{{i18n:Faust.Dialogue.Fri.{{Random: 0, 10}}}}",
+				"Sat": "{{i18n:Faust.Dialogue.Sat.{{Random: 0, 10}}}}",
+				"Sun": "{{i18n:Faust.Dialogue.Sun.{{Random: 0, 10}}}}", 
+				
+				// Schedule dialogue
+				"Faust.000": "{{i18n:Faust.Schedule.Dialogue.000}}",
+				"Faust.001": "{{i18n:Faust.Schedule.Dialogue.001}}",
+				"Faust.002": "{{i18n:Faust.Schedule.Dialogue.002}}",
+			}
+		},
+	]
+}

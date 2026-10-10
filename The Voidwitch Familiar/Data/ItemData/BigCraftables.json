@@ -1,0 +1,40 @@
+{
+    "Changes": [
+		/////////////////////////
+		// Load BigCraftables //
+		///////////////////////
+        {
+            "LogName": "Load BigCraftables",
+            "Action": "Load",
+            "Target": "Mods/VoidWitchCult.CP.VoidWitchFamiliar/BigCraftables",
+            "FromFile": "Assets/Items/vww_familiar_bigcraftables.png"
+		},
+		////////////////////////
+		// Add BigCraftables //
+		//////////////////////
+        {
+            "LogName": "Add BigCraftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModID}}_WeirdScarecrow": {
+                    "Name": "{{ModID}}_WeirdScarecrow",
+                    "DisplayName": "{{i18n:weirdscarecrow.Name}}",
+                    "Description": "{{i18n:weirdscarecrow.Description}}",
+                    "Price": 250,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods\\{{ModID}}\\BigCraftables",
+                    "SpriteIndex": 0,
+					"ContextTags": [
+                        "color_red",
+						"color_yellow",
+						"light_source"
+					]
+				},
+			}
+		}, 
+	]
+}

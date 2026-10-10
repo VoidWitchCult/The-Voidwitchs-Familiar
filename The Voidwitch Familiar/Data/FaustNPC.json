@@ -1,0 +1,107 @@
+{
+    "Changes": [
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Faust": { 
+					"DisplayName": "???", 
+					"Gender": "Male", 
+					"Age": "Adult", 
+					"Manner": "Polite", 
+					"SocialAnxiety": "Outgoing", 
+					"Optimism": "Positive", 
+					"BirthSeason": "fall", 
+					"BirthDay": "30", 
+					"HomeRegion": "Other",  
+					"CanBeRomanced": false,  
+					"CanVisitIsland": false, 
+					"SpouseAdopts": false, 
+					"IntroductionsQuest": false, 
+					"ItemDeliveryQuests": false, 
+					"WinterStarParticipant": false, 
+					"IsDarkSkinned": true,
+					"Calendar": "HiddenUntilMet", 
+                    "SocialTab": "HiddenUntilMet", 
+                    "CanReceiveGifts": false, 
+					"CanSocialize": false,
+                    "CanGreetNearbyCharacters": false, 
+                    "CanCommentOnPurchasedShopItems": false, 
+					"PerfectionScore": false, 
+                    "EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": 0,
+					"UnlockConditions": null,
+					"SpawnIfMissing": true,
+					"ShakePortraits": [ 8 ], 
+					"Breather": true, 
+					"Home": [   
+						{
+							"Id": "Default",
+							"Location": "Town",
+							"Tile": {
+								"X": 38,
+								"Y": 57
+							},
+							"Direction": "down"
+						}
+					],
+					"Size": {
+						"X": 16,
+						"Y": 32
+					},
+                    "Appearance": [
+						{
+							"ID": "Usual Outfit",
+							"Precedence": -10,
+							"Weight": 1,
+							"Portrait": "Portraits/{{ModID}}_Faust",
+							"Sprite": "Characters/{{ModID}}_Faust"
+						},
+					],
+					},
+			},
+		},
+			{
+				"LogName": "Faust Portraits",
+				"Action": "Load",
+				"Target": "Portraits/{{ModID}}_Faust",
+				"FromFile": "assets/Images/Faust_humanoid_Portrait.png"
+			},
+			{
+				"LogName": "Faust Sprites",
+				"Action": "Load",
+				"Target": "Characters/{{ModID}}_Faust",
+				"FromFile": "assets/Images/Faust_spritesheet.png"
+			},
+			{
+				"LogName": "Animation Descriptions",
+				"Action": "EditData",
+				"Target": "Data/animationDescriptions",
+				"Entries": {
+					"{{ModID}}_Faust_impatient": "16 16 16 16/16 16 17 17 17 17 18 18 18 17 17 17 17 18 18 18 18 17 17 17 17 16 16 16/16",
+				}
+			},
+			{
+				"LogName": "Faust Gift Tastes",
+				"Action": "EditData",
+				"Target": "Data/NPCGiftTastes",
+				"Entries": {
+					"{{ModID}}_Faust": "{{i18n:Faust.Gifttastes.Love}}/ID/{{i18n:Faust.Gifttastes.Like}}/ID/{{i18n:Faust.Gifttastes.Dislike}}/ID/{{i18n:Faust.Gifttastes.Hate}}/ID/{{i18n:Faust.Gifttastes.Neutral}}/ID",
+				}
+			},
+			
+			{
+			"LogName": "Faust blank loads",
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModID}}_Faust, Strings/schedules/{{ModID}}_Faust, Characters/Dialogue/{{ModID}}_Faust",
+			"FromFile": "Data/blank.json",
+		},
+		{
+			"LogName": "Includes",
+			"Action": "Include",
+			"FromFile": "Data/FaustDialogue.json, Data/FaustSchedule.json"
+		},
+		
+	]
+}

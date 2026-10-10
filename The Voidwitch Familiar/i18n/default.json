@@ -1,0 +1,256 @@
+{
+	//Strings from Maps
+	"Strings.FaustDialogue.1": "You aren't supposed to see this....oh...now I have to tell Ginnungagap about this...!",
+	
+	//Shop Dialogue
+	"VWW.Dialogue.1": "Master sent me here...do you want to buy something?",
+	
+	//Events
+	"CP.Letter.VoidWitch": "Greetings, mortal Farmer,^^It came to my ears that you have been doing many things in the valley.^^While I tend to keep to myself my Familiar, Faust, evinced curiosity in visit your residencial area.^^He shall bring new curiosities for the month of Samhain from my personal repository.^^As above, so below.^^-The Void Witch",
+	
+	//Produce
+	"BlackNightshadeBerries.name": "Black Nightshade Berries",
+	"BlackNightshadeBerries.description": "The unripe green berries are considered toxic, but once ripened they have a sweet and savory flavor with musky, subtly sweet, herbal undertones.",
+	
+	"BlackPearlPepper.name": "Black Pearl Pepper",
+	"BlackPearlPepper.description": "With 10,000 to 30,000 Scoville it packs a good punch of heat to go along with a light citrusy-sweet flavor.",
+	
+	"DarkDimensionHyacinth.name": "Dark Dimension Hyacinth",
+	"DarkDimensionHyacinth.description": "A very dark purplish blue hyacinth which fades to almost black with age.",
+	
+	"MidnightCorn.name": "Midnight Corn",
+	"MidnightCorn.description": "The Goth cousin of regular corn. It has jet black kernels with a slightly purplish hue.",
+	
+	"MidnightPAINsies.name": "Midnight PAINsies",
+	"MidnightPAINsies.description": "A symbol of remembrance. The lover in visible pain being unable to get past their 'love in idleness'.",
+	
+	"MidnightSunflower.name": "Midnight Sunflower",
+	"MidnightSunflower.description": "A kind of sunflower that does not seek the light of the sun, despite it's name.",
+	
+	"PurpleOpalBasil.name": "Purple Opal Basil",
+	"PurpleOpalBasil.description": "A type or basil known for it's deep purple hue. Often used to naturally dye.",
+	
+	"QueenoftheNightTulip.name": "Queen of the Night Tulip",
+	"QueenoftheNightTulip.description": "A tulip with velvety, deep maroon black blooms.",
+	
+	"RedSpiderLily.name": "Red Spider Lily",
+	"RedSpiderLily.description": "A legend says, that this flower is blooming wherever two people separate forever.",
+	
+	"WineredCorn.name": "Winered Corn",
+	"WineredCorn.description": "A special type of corn in the color of red wine.",
+	
+	"WineredPAINsies.name": "Winered PAINsies",
+	"WineredPAINsies.description": "A symbol of remembrance. The lover in visible pain being unable to get past their 'love in idleness'.",
+	
+	"ColocasiaBlackMagic.name": "Colocasia Black Magic",
+	"ColocasiaBlackMagic.description": "Smoky-purple, heart-shaped leaves cascade downward from long stems. Also known as 'Black Elephant's Ear'.",
+	
+	"BlackMambaPetunia.name": "Black Mamba Petunia",
+	"BlackMambaPetunia.description": "Rare colored black velvety flowers stand out against green foliage and add elegant, dramatic color to your garden.",
+	
+	"CarnivorousCobraLily.name": "Carnivorous Cobra Lily",
+	"CarnivorousCobraLily.description": " The cobra lily, a carnivorous plant, uses deception, patience and bacteria to catch and digest its prey.",
+	
+	"BlackPrinceSnapdragon.name": "Black Prince Snapdragon",
+	"BlackPrinceSnapdragon.description": "A single-coloured, low growing snapdragon with wonderful, dark red velvety blossoms and dark green leaves.",
+	
+	"Belladonna.name": "Belladonna",
+	"Belladonna.description": "Commonly known as deadly nightshade, it is a toxic perennial herbaceous plant in the nightshade family. This plant has an involved and complex history with humans.",
+	
+	"PerillaFrutescens.name": "Perilla Frutescens",
+	"PerillaFrutescens.description": "Commonly called beefsteak plant, shiso, or perilla mint, is an upright, bushy annual plant.",
+	
+	"PurpleShamrock.name": "Purple Shamrock",
+	"PurpleShamrock.description": "Also called false shamrock, it is a species of perennial plant in the family Oxalidaceae. They naturally close at night or on cloudy days, then open back up with the morning light.",
+	
+	"PurpleArtichoke.name": "Purple Artichoke",
+	"PurpleArtichoke.description": "It's an artichoke but purple, what's more to say?",
+	
+	"HelloDarknessIris.name": "Hello Darkness Iris",
+	"HelloDarknessIris.description": "A tall bearded Iris plant with very dark flowers on tall stems. Known for their striking, frilled blooms and vibrant colors, ranging from deep purples to dark blues.",
+	
+	"MidnightRuffles.name": "Midnight Ruffles",
+	"MidnightRuffles.description": "Also called Hellebore. Double black flowers with contrasting yellow stamens.",
+	
+	//Cooking
+	"BloodyAccidentFloat.name": "Bloody Accident Float",
+	"BloodyAccidentFloat.description": "Some things are better left unsaid...especially if they taste THIS good.",
+	
+	"BloodyCandyApple.name": "Bloody Candy Apple",
+	"BloodyCandyApple.description": "A delicious non-suspicious candy apple. To die for!",
+	
+	"BoneyBisquits.name": "Boney Bisquits",
+	"BoneyBisquits.description": "Crumch!",
+	
+	"BowlOPeppers.name": "Bowl O Peppers",
+	"BowlOPeppers.description": "Finally an easy way to stuff your face with intense, hot pain. Yum!",
+	
+	"CursedCandyApple.name": "Cursed Candy Apple",
+	"CursedCandyApple.description": "...I hope you don't mind that I added a little...spice...to it.",
+	
+	"GhastlyCryptRollcake.name": "Ghastly Crypt Rollcake",
+	"GhastlyCryptRollcake.description": "A special rollcake imbued with certain magical properties. Please don't ask me about the details.",
+	
+	"GhastlyGhostCupcake.name": "Ghastly Ghost Cupcake",
+	"GhastlyGhostCupcake.description": "Ghastly, goulish...ectoplasm-filled...what a delight!",
+	
+	"GutlessGlory.name": "Gutless Glory",
+	"GutlessGlory.description": "Delicious, thirst-quenching bowl of flesh-like goodness. Consuming too much may result in-...ah, where's the fun in warning you?",
+	
+	"IridiumSnakeMalk.name": "Iridium Snake Malk",
+	"IridiumSnakeMalk.description": "I was young once too. Made mistakes, hurt people...now I have grown old and I am still doing the same things. Don't trust me.",
+	
+	"KillerChocolateTruffle.name": "Killer Chocolate Truffle",
+	"KillerChocolateTruffle.description": "You've been wronged before too, right? Revenge is sweet and a dish best served cold...eat up.",
+	
+	"MonsterBlueCupcake.name": "Monster Blue Cupcake",
+	"MonsterBlueCupcake.description": "Isn't it adorable how it's looking at you?",
+	
+	"PoisonedCandyApple.name": "Poisoned Candy Apple",
+	"PoisonedCandyApple.description": "It's fine...all things come to an end. There's always good things coming from ones ruins...",
+	
+	"PumpkinCheesecakeTrifle.name": "Pumpkin Cheesecake Trifle",
+	"PumpkinCheesecakeTrifle.description": "Delicious fall food best enjoyed cooled. Please take a bite.",
+	
+	"PumpkinCremeBrulee.Name": "Pumpkin Creme Brulee",
+	"PumpkinCremeBrulee.Description": "Set the world ablaze with this delicious treat! This is fine.",
+	
+	"RadioactiveWormSoup.name": "Radioactive Worm Soup",
+	"RadioactiveWormSoup.description": "I used to make this when I was a child...what a delight! It glows brightly in the dark...just like you will. If you survive.",
+	
+	"SpiderChocolateBrownie.name": "Spider Chocolate Brownie",
+	"SpiderChocolateBrownie.description": "Don't worry, no real spiders were harmed making this Brownie.",
+	
+	"SunsetSpells.name": "Sunset Spells",
+	"SunsetSpells.description": "A fruity refreshing drink with a magical twist!",
+	
+	"SuspiciousLiquor.name": "Suspicious Liquor",
+	"SuspiciousLiquor.description": "Wait...you weren't supposed to know about this. This is worse than moonshine...",
+	
+	"SuspiciousLurkerCookies.name": "Suspicious Lurker Cookies",
+	"SuspiciousLurkerCookies.description": "Take a careful look around...there might be something waiting for you...",
+	
+	"VampiricRoots.name": "Vampiric Roots",
+	"VampiricRoots.description": "Embrace your natural nocturnal urges...quench your thirst.",
+	
+	"VoidWitchSignatureSoup.name": "VoidWitch Signature Soup",
+	"VoidWitchSignatureSoup.description": "Yum, my favorite!",
+	
+	"WineredPepperSoup.name": "Winered Pepper Soup",
+	"WineredPepperSoup.description": "Burn bridges and friendships with this devilish hot soup.",
+	
+	"WitchyGreenCupcake.name": "Witchy Green Cupcake",
+	"WitchyGreenCupcake.description": "A child has offered me one before...very kind. I decided to leave that town peacefully on that day.",
+	
+	//BIG CRAFTABLES
+	"weirdscarecrow.name": "Weird Scarecrow",
+	"weirdscarecrow.description": "A rather odd scarecrow that might make some jump in dim light.",
+	
+	//FAUST DIALOGUE
+	// GENERAL
+	"Faust.Dialogue.DumpsterDiveComment": "Hey now, I appreciate your resourcefulness but can you do that a little bit more discreet?$6#$b#Not that I care. Just between the two of us...if you keep doing it there will be a fun surprise, just saying.",
+	"Faust.Dialogue.HitBySlingshot": "You little-!$8#$b#You know what? Have this.$5#$action AddBuff 26 -2",
+	"Faust.Dialogue.GreenRain": "Hm, yes. Master likes to collect this rain in bottles for later use quite often.#$b#It's potent in it's own way, just like moon water.",
+	"Faust.Dialogue.GreenRainFinished": "Ah, it's already over.#$b#It was quite amusing to see the mortals huddled up together because of some rain.",
+	"Faust.Dialogue.GreenRain2": "I've lost count of all the bottles of this rain is by now collected by my master...#$b#...how much to dare you drink one of the bottles?",
+	
+	// DIALOGUE EXTRA
+	"Faust.Dialogue.Introduction": "Ah, hello there. Don't mind me, I am just-...hm. Existing, yes.$1",
+	
+	// DIALOGUE 1ST OF SEASON
+	"Faust.Dialogue.spring_1": "Life is about to rise once more blanketing it's warm embrace all around the valley...#$b#...I could not care less. If something exists or not is all the same to me.",
+	"Faust.Dialogue.summer_1": "The cycle continues with the sun burning down upon us mercilessly from above and-...#$b#...siiiiiigh...$6#$b#...yadda, yadda, insert some deep meaningful words here.#$b#...anyway, can you fetch me some ice cream?",
+	"Faust.Dialogue.fall_1": "The season of change, to some it's the season of bounty, for others it's the season of death.#$b#I personally quite like it.$2#$b#What about you?",
+	"Faust.Dialogue.winter_1": "Hmmm...white isn't really my style.#$b#What do you think if we just blasted away all this snow with a firestorm?$7",
+	
+	//DIALOGUE 
+	
+	"Faust.Dialogue.Mon.0": "Say, humble friend, are there any things you fear in the world?#$b#How likely do you think they could come true?$1#$b#I've got some connections, you see? You know how there's things like exposure therapy and the like? We could work something out.$7#$b#You will thank me later, I'm sure.$4",
+	"Faust.Dialogue.Mon.1": "I've caught a butterfly earlier today.#$b#I was considering just crushing it with my hand, but in the end I let it go.#$b#Bothering such small creatures is too boring anyway. You're more fun.",
+	"Faust.Dialogue.Mon.2": "Sometimes my master makes me do these outrageous errands and I think to myself why am I still listening to them?#$b#Then again...I would not exist without them. Existing sure is nice. I guess I can live with an errand or two that annoy me once in a while.",
+	"Faust.Dialogue.Mon.3": "I would love to see pigs fly. Actually, I'd love to see a good bunch of sayings come true just because the thought of that seems funny to me.#$b#What saying would you like to see come true, friend?",
+	"Faust.Dialogue.Mon.4": "When I am bored I start to pick my skin.#$b#It regrows pretty quickly so I've a hard time stopping.#$b#................$2#$b#...well, that's not too odd now, is it? There's other things I do when I am bored but I was told by my master that those are mostly not-...hm, mortal-friendly.$8",
+	"Faust.Dialogue.Mon.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Mon.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Mon.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Mon.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Mon.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Mon.10": "Lorem ipsum dolor sit amet.",
+	
+	"Faust.Dialogue.Tue.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Tue.10": "Lorem ipsum dolor sit amet.",
+
+	"Faust.Dialogue.Wed.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Wed.10": "Lorem ipsum dolor sit amet.",
+	
+	"Faust.Dialogue.Thu.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Thu.10": "Lorem ipsum dolor sit amet.",
+	
+	"Faust.Dialogue.Fri.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Fri.10": "Lorem ipsum dolor sit amet.",
+	
+	"Faust.Dialogue.Sat.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sat.10": "Lorem ipsum dolor sit amet.",
+	
+	"Faust.Dialogue.Sun.0": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.1": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.2": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.3": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.4": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.5": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.6": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.7": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.8": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.9": "Lorem ipsum dolor sit amet.",
+	"Faust.Dialogue.Sun.10": "Lorem ipsum dolor sit amet.",
+	
+	// SCHEDULE DIALOGUE
+	"Faust.Schedule.Dialogue.000": "Lorem ipsum dolor sit amet.",
+	"Faust.Schedule.Dialogue.001": "Lorem ipsum dolor sit amet.",
+	"Faust.Schedule.Dialogue.002": "Lorem ipsum dolor sit amet.",
+}

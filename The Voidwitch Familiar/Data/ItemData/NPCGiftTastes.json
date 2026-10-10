@@ -1,0 +1,71 @@
+{
+    "Changes": [
+// add gift tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": "{{ModID}}_PumpkinCheesecakeTrifle",
+                    "Delimiter": " "  
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": "{{ModID}}_BloodyCandyApple {{ModID}}_BoneyBisquits {{ModID}}_BowlOPeppers {{ModID}}_CursedCandyApple {{ModID}}_GhastlyCryptRollcake {{ModID}}_GhastlyGhostCupcake {{ModID}}_KillerChocolateTruffle {{ModID}}_MonsterBlueCupcake {{ModID}}_PumpkinCremeBrulee {{ModID}}_SpiderChocolateBrownie {{ModID}}_SunsetSpells",
+                    "Delimiter": " " 
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": "{{ModID}}_PoisonedCandyApple",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": "{{ModID}}_GutlessGlory {{ModID}}_IridiumSnakeMalk {{ModID}}_SuspiciousLiquor {{ModID}}_VoidWitchSignatureSoup",
+                    "Delimiter": " "  
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 5], //dislike
+                    "Value": "{{ModID}}_BloodyAccidentFloat",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1], //love
+                    "Value": "{{ModID}}_GhastlyGhostCupcake {{ModID}}_MonsterBlueCupcake {{ModID}}_RadioactiveWormSoup {{ModID}}_SuspiciousLurkerCookies {{ModID}}_WitchyGreenCupcake",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 5], //dislike
+                    "Value": "{{ModID}}_BloodyAccidentFloat",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 1], //love
+                    "Value": "{{ModID}}_GhastlyGhostCupcake {{ModID}}_MonsterBlueCupcake {{ModID}}_RadioactiveWormSoup {{ModID}}_SuspiciousLurkerCookies {{ModID}}_WitchyGreenCupcake",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 1],
+                    "Value": " ",
+                    "Delimiter": " "  
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 1],
+                    "Value": " ",
+                    "Delimiter": " "  
+                },
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		{
+			"LogName": "VoidWitch Familiar Recipes",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries": {
+				"{{ModID}}_BloodyAccidentFloat": "{{ModID}}_BlackPearlPepper 4 -6 1 {{ModID}}_BlackNightshadeBerries 2/1 1/{{ModID}}_BloodyAccidentFloat/none/{{i18n:BloodyAccidentFloat.Name}}",
+				"{{ModID}}_BloodyCandyApple": "(O)613 1 (O)245 5/1 1/{{ModID}}_BloodyCandyApple/none/{{i18n:BloodyCandyApple.Name}}",
+				"{{ModID}}_BoneyBisquits": "(O)246 2 -6 1 (O)344 1/1 1/{{ModID}}_BoneyBisquits 2/none/{{i18n:BoneyBisquits.Name}}",
+				"{{ModID}}_BowlOPeppers": "{{ModID}}_BlackPearlPepper 4 (O)402 1/1 1/{{ModID}}_BowlOPeppers/none/{{i18n:BowlOPeppers.Name}}",
+				"{{ModID}}_CursedCandyApple": "{{ModID}}_BloodyCandyApple 1 (O)769 5/1 1/{{ModID}}_CursedCandyApple 2/none/{{i18n:CursedCandyApple.Name}}",
+				"{{ModID}}_GhastlyCryptRollcake": "{{ModID}}_IridiumSnakeMalk 1 (O)246 1 (O)566 2 (O)769 10/1 1/{{ModID}}_GhastlyCryptRollcake/none/{{i18n:GhastlyCryptRollcake.Name}}",
+				"{{ModID}}_GhastlyGhostCupcake": "(O)246 1 (O)245 1 {{ModID}}_BlackNightshadeBerries 5/1 1/{{ModID}}_GhastlyGhostCupcake/none/{{i18n:GhastlyGhostCupcake.Name}}",
+				"{{ModID}}_GutlessGlory": "{{ModID}}_BlackPearlPepper 5 {{ModID}}_IridiumSnakeMalk 1 {{ModID}}_WineredPAINsies 2/1 1/{{ModID}}_GutlessGlory/none/{{i18n:GutlessGlory.Name}}",
+				"{{ModID}}_IridiumSnakeMalk": "-6 1 (O)769 5/1 1/{{ModID}}_IridiumSnakeMalk/none/{{i18n:IridiumSnakeMalk.Name}}",
+				"{{ModID}}_KillerChocolateTruffle": "-6 1 (O)253 1 344 1/1 1/{{ModID}}_KillerChocolateTruffle/none/{{i18n:KillerChocolateTruffle.Name}}",
+				"{{ModID}}_MonsterBlueCupcake": "{{ModID}}_DarkDimensionHyacinth 5 (O)246 1 -6 1/1 1/{{ModID}}_MonsterBlueCupcake/none/{{i18n:MonsterBlueCupcake.Name}}",
+				"{{ModID}}_PoisonedCandyApple": "{{ModID}}_BloodyCandyApple 1 (O)766 10 (O)420 1/1 1/{{ModID}}_PoisonedCandyApple 2/none/{{i18n:PoisonedCandyApple.Name}}",
+				"{{ModID}}_PumpkinCheesecakeTrifle": "(O)276 1 -5 1 -6 1/1 1/{{ModID}}_PumpkinCheesecakeTrifle/none/{{i18n:PumpkinCheesecakeTrifle.Name}}",
+				"{{ModID}}_PumpkinCremeBrulee": "(O)276 1 -6 1 {{ModID}}_WineredCorn 1/1 1/{{ModID}}_PumpkinCremeBrulee/none/{{i18n:PumpkinCremeBrulee.Name}}",
+				"{{ModID}}_RadioactiveWormSoup": "(O)909 4 (O)74 1 (O)167 1/1 1/{{ModID}}_RadioactiveWormSoup 5/none/{{i18n:RadioactiveWormSoup.Name}}",
+				"{{ModID}}_SpiderChocolateBrownie": "-6 1 -5 1 {{ModID}}_BlackPearlPepper 1 (O)88 1/1 1/{{ModID}}_SpiderChocolateBrownie/none/{{i18n:SpiderChocolateBrownie.Name}}",
+				"{{ModID}}_SunsetSpells": "(O)832 2 (O)834 1 {{ModID}}_PurpleOpalBasil 1 (O)768 1/1 1/{{ModID}}_SunsetSpells/none/{{i18n:SunsetSpells.Name}}",
+				"{{ModID}}_SuspiciousLiquor": "(O)769 4 (O)128 1 {{ModID}}_DarkDimensionHyacinth 1 (O)420 1/1 1/{{ModID}}_SuspiciousLiquor/none/{{i18n:SuspiciousLiquor.Name}}",
+				"{{ModID}}_SuspiciousLurkerCookies": "-6 1 -5 1 {{ModID}}_MidnightPAINsies 1/1 1/{{ModID}}_SuspiciousLurkerCookies/none/{{i18n:SuspiciousLurkerCookies.Name}}",
+				"{{ModID}}_VampiricRoots": "{{ModID}}_BlackPearlPepper 2 {{ModID}}_BlackNightshadeBerries 2 {{ModID}}_PurpleOpalBasil 1/1 1/{{ModID}}_VampiricRoots/none/{{i18n:VampiricRoots.Name}}",
+				"{{ModID}}_VoidWitchSignatureSoup": "(O)769 15 (O)74 5 {{ModID}}_IridiumSnakeMalk 2 {{ModID}}_RedSpiderLily 5/1 1/{{ModID}}_VoidWitchSignatureSoup/none/{{i18n:VoidWitchSignatureSoup.Name}}",
+				"{{ModID}}_WineredPepperSoup": "{{ModID}}_BlackPearlPepper 4 {{ModID}}_WineredCorn 1 {{ModID}}_WineredPAINsies 1/1 1/{{ModID}}_WineredPepperSoup/none/{{i18n:WineredPepperSoup.Name}}",
+				"{{ModID}}_WitchyGreenCupcake": "(O)246 1 -6 1 (O)766 4 {{ModID}}_DarkDimensionHyacinth 2/1 1/{{ModID}}_WitchyGreenCupcake/none/{{i18n:WitchyGreenCupcake.Name}}",
+				
+			}
+		},
+	]
+}
