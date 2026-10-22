@@ -7,6 +7,8 @@ The familiar of a witch appears one day in your valley, offering a few of their 
 ## General Information
 ### Dependencies
 - ContentPatcher
+- MMAP
+- Spacecore
 
 ### Suggested mods
 Here a variety of mods that go well with my mod. They are not needed but serve a smooth transition for additional gameplay alongside it.
