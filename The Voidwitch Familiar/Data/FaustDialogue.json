@@ -35,6 +35,11 @@
 				"Faust.000": "{{i18n:Faust.Schedule.Dialogue.000}}",
 				"Faust.001": "{{i18n:Faust.Schedule.Dialogue.001}}",
 				"Faust.002": "{{i18n:Faust.Schedule.Dialogue.002}}",
+				"Faust.003": "{{i18n:Faust.Schedule.Dialogue.003}}",
+				"Faust.004": "{{i18n:Faust.Schedule.Dialogue.004}}",
+				"Faust.005": "{{i18n:Faust.Schedule.Dialogue.005}}",
+				"Faust.006": "{{i18n:Faust.Schedule.Dialogue.006}}",
+				"Faust.007": "{{i18n:Faust.Schedule.Dialogue.007}}",
 			}
 		},
 	]

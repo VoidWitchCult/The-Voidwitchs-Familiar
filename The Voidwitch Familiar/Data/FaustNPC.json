@@ -1,6 +1,6 @@
 {
     "Changes": [
-		
+		//DISPO
 		{
 			"Action": "EditData",
 			"Target": "Data/Characters",
@@ -38,10 +38,10 @@
 					"Home": [   
 						{
 							"Id": "Default",
-							"Location": "Town",
+							"Location": "{{ModId}}_WitchHouse",
 							"Tile": {
-								"X": 38,
-								"Y": 57
+								"X": 5,
+								"Y": 9
 							},
 							"Direction": "down"
 						}
@@ -59,49 +59,319 @@
 							"Sprite": "Characters/{{ModID}}_Faust"
 						},
 					],
-					},
+				},
 			},
 		},
+		//PORTRAITS/SPRITES
+		{
+			"LogName": "Faust Portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModID}}_Faust",
+			"FromFile": "assets/Images/Faust_humanoid_Portrait.png"
+		},
+		{
+			"LogName": "Faust Sprites",
+			"Action": "Load",
+			"Target": "Characters/{{ModID}}_Faust",
+			"FromFile": "assets/Images/Faust_spritesheet.png"
+		},
+		//ANIMATIONS
+		{
+			"LogName": "Animation Descriptions",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"{{ModID}}_Faust_impatient": "16 16 16 16/16 16 17 17 17 17 18 18 18 17 17 17 17 18 18 18 18 17 17 17 17 16 16 16/16",
+				"{{ModID}}_Faust_FamilyGuyDeathPose": "10/10/10",
+				"{{ModID}}_Faust_writing": "22/22 22 22 23 23 23 22/22",
+				"{{ModID}}_Faust_snacking": "24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 28 29 29 29 29 29 29 29 29 29 30 31 24 24 24 24 24 24 24 24 24 24 24/24"
+			}
+		},
+		//SPACECORE ANIMATIONS
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+			"Entries":
 			{
-				"LogName": "Faust Portraits",
-				"Action": "Load",
-				"Target": "Portraits/{{ModID}}_Faust",
-				"FromFile": "assets/Images/Faust_humanoid_Portrait.png"
-			},
-			{
-				"LogName": "Faust Sprites",
-				"Action": "Load",
-				"Target": "Characters/{{ModID}}_Faust",
-				"FromFile": "assets/Images/Faust_spritesheet.png"
-			},
-			{
-				"LogName": "Animation Descriptions",
-				"Action": "EditData",
-				"Target": "Data/animationDescriptions",
-				"Entries": {
-					"{{ModID}}_Faust_impatient": "16 16 16 16/16 16 17 17 17 17 18 18 18 17 17 17 17 18 18 18 18 17 17 17 17 16 16 16/16",
+				"{{ModID}}_Faust_FamilyGuyDeathPose": { 
+					"SourceRectSize": "32, 32",
+					"DrawOffset": "0, 0",
+					"AppearanceOverride": null,
+					"OnStart": { "Emote": null, "PlaySound": "slosh" },
+					"OnEnd": { "Emote": null, "PlaySound": null },
 				}
-			},
-			{
-				"LogName": "Faust Gift Tastes",
-				"Action": "EditData",
-				"Target": "Data/NPCGiftTastes",
-				"Entries": {
-					"{{ModID}}_Faust": "{{i18n:Faust.Gifttastes.Love}}/ID/{{i18n:Faust.Gifttastes.Like}}/ID/{{i18n:Faust.Gifttastes.Dislike}}/ID/{{i18n:Faust.Gifttastes.Hate}}/ID/{{i18n:Faust.Gifttastes.Neutral}}/ID",
-				}
-			},
-			
-			{
+			}
+		},
+		//GIFTTASTE
+		{
+			"LogName": "Faust Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModID}}_Faust": "{{i18n:Faust.Gifttastes.Love}}/ID/{{i18n:Faust.Gifttastes.Like}}/ID/{{i18n:Faust.Gifttastes.Dislike}}/ID/{{i18n:Faust.Gifttastes.Hate}}/ID/{{i18n:Faust.Gifttastes.Neutral}}/ID",
+			}
+		},
+		//BLANK LOADS
+		{
 			"LogName": "Faust blank loads",
 			"Action": "Load",
 			"Target": "Characters/schedules/{{ModID}}_Faust, Strings/schedules/{{ModID}}_Faust, Characters/Dialogue/{{ModID}}_Faust",
 			"FromFile": "Data/blank.json",
 		},
+		//INCLUDES
 		{
 			"LogName": "Includes",
 			"Action": "Include",
 			"FromFile": "Data/FaustDialogue.json, Data/FaustSchedule.json"
 		},
-		
+		//LOCATION LOAD
+		{
+			"LogName": "Load custom maps",
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_WitchDen, Maps/{{ModID}}_WitchHouse",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
+		},
+		//TILESHEET LOAD
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/WitchDen",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.png"
+		},
+		//LOCATION DATA
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_WitchDen": {
+					"DisplayName": "{{i18n:Locations.WitchDen}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_WitchDen",
+					},
+					"DefaultArrivalTile": { 
+						"X": 40,
+						"Y": 20
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CanHaveGreenRainSpawns": false,
+					"ArtifactSpots": [
+						{
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+						},
+						{
+							"Chance": 0.25,
+							"ApplyGenerousEnchantment": false,
+							"OneDebrisPerDrop": false,
+							"Precedence": -100,
+							"ContinueOnDrop": true,
+							"Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current DROP_QI_BEANS",
+							"Id": "(O)890",
+							"ItemId": "(O)890",
+							"MinStack": 2,
+							"MaxStack": 5,
+							"Quality": -1,
+						}
+					],
+					"Fish":  [],
+					"Forage": [
+						{
+                            "Id": "(O)397",
+                            "ItemId": "(O)397", //Sea  Urchin
+                            "Chance": 0.1
+						},
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 2,
+					"MaxDailyForageSpawn": 20,
+					"MaxSpawnedForageAtOnce": 10,
+					"ChanceForClay": 0.05,
+					"Music": [
+						{
+                            "Id": "{{ModId}}_WitchDenMusic",
+                            "Track": "junimoKart_mushroomMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+				"{{ModId}}_WitchHouse": {
+					"DisplayName": "{{i18n:Locations.MermaidHome}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModID}}_WitchHouse",
+					},
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 39
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"ArtifactSpots": [],
+					"FishAreas": {},
+					"Fish": [],
+					"Forage": [],
+					"Music": [
+						{
+                            "Id": "{{ModId}}_WitchHouseMusic",
+                            "Track": "junimoKart_ghostMusic",
+						}
+					],
+					"MusicDefault": null,
+					"MusicContext": "Default",
+					"MusicIgnoredInRain": true,
+				},
+			}
+		},
+		//LOCATION CONTEXT
+		{
+			"Action": "EditData",
+			"Target": "Data/LocationContexts",
+			"Entries": {
+				"{{ModId}}_WitchDenContext": {
+					"Name": "{{ModId}}_WitchDenContext",
+					"DefaultValidPlantableLocations": [],
+					"AllowRainTotem": true,
+					"SeasonOverride": "fall",
+					"MaxPassOutCost": 0,
+					"PassOutLocations": [
+						{
+							"Id": "{{ModId}}_PassOutWitchDen",
+						}
+					],
+					"ReviveLocations": [
+						{
+							"Location": "{{ModId}}_WitchHouse",
+							"Position": {
+								"X": 0,
+								"Y": 0
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "PassedOutFaust",
+							"SkipRandomSelection": true
+						}
+					],
+					"CustomFields": {
+						"mushymato.MMAP_WaterColor": "#653fe680",
+						"mushymato.MMAP_WaterDraw": "T",
+					}
+				},
+			},
+		},
+		//WARPS
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_WitchDen",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 41,
+						"Y": 12
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 6 39 {{ModID}}_WitchHouse 800 2200"
+					}
+				},
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_WitchHouse",
+			"AddWarps": [
+				"6 40 {{ModID}}_WitchDen 41 13",
+				"3 7 Town 40 57",
+				"8 7 Mountain 31 21",
+				"3 12 Beach 20 4",
+				"8 12 Desert 35 43"
+			]
+		},
+		//CJB CHEATS MENU WARP
+		{
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/WarpSections",
+			"When":{ "HasMod":"CJBok.CheatsMenu" },
+			"Entries": {
+				"{{ModId}}_WitchDenWarp": {
+					"Id": "{{ModId}}_WitchDenWarp",
+					"DisplayName": "{{i18n:Locations.WitchDen}}"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/Warps",
+			"When":{ "HasMod":"CJBok.CheatsMenu" },
+			"Entries": {
+				"{{ModId}}_WitchDen_Warp": {
+					"Id": "{{ModId}}_WitchDen_Warp",
+					"SectionId": "{{ModId}}_WitchDenWarp",
+					"DisplayName": "{{i18n:Locations.WitchDen}}",
+					"Location": "{{ModId}}_WitchDen",
+					"Tile": "40, 20"
+				},
+				"{{ModId}}_WitchHouse_Warp": {
+					"Id": "{{ModId}}_WitchHouse_Warp",
+					"SectionId": "{{ModId}}_WitchDenWarp",
+					"DisplayName": "{{i18n:Locations.WitchHouse}}",
+					"Location": "{{ModId}}_WitchHouse",
+					"Tile": "6, 39"
+				}
+			}
+		},
+		{
+			
+			"Action": "EditData",
+			"Target": "strings/StringsFromMaps",
+			"Entries": {
+				"{{ModID}}.WitchHouse.1": "{{i18n:Strings.WitchHouse.1}}",
+				"{{ModID}}.WitchHouse.2": "{{i18n:Strings.WitchHouse.2}}",
+				"{{ModID}}.WitchHouse.3": "{{i18n:Strings.WitchHouse.3}}",
+				"{{ModID}}.WitchHouse.4": "{{i18n:Strings.WitchHouse.4}}",
+				"{{ModID}}.WitchHouse.5": "{{i18n:Strings.WitchHouse.5}}",
+				"{{ModID}}.WitchHouse.6": "{{i18n:Strings.WitchHouse.6}}",
+				"{{ModID}}.WitchHouse.7": "{{i18n:Strings.WitchHouse.7}}",
+				"{{ModID}}.WitchHouse.8": "{{i18n:Strings.WitchHouse.8}}",
+				"{{ModID}}.WitchHouse.9": "{{i18n:Strings.WitchHouse.9}}",
+				"{{ModID}}.WitchHouse.10": "{{i18n:Strings.WitchHouse.10}}",
+				"{{ModID}}.WitchHouse.11": "{{i18n:Strings.WitchHouse.11}}",
+				"{{ModID}}.WitchHouse.12": "{{i18n:Strings.WitchHouse.12}}",
+				"{{ModID}}.WitchHouse.13": "{{i18n:Strings.WitchHouse.13}}",
+				"{{ModID}}.WitchHouse.14": "{{i18n:Strings.WitchHouse.14}}",
+				"{{ModID}}.WitchHouse.15": "{{i18n:Strings.WitchHouse.15}}",
+				"{{ModID}}.WitchHouse.16": "{{i18n:Strings.WitchHouse.16}}",
+				"{{ModID}}.WitchHouse.17": "{{i18n:Strings.WitchHouse.17}}",
+				"{{ModID}}.WitchHouse.18": "{{i18n:Strings.WitchHouse.18}}",
+				"{{ModID}}.WitchHouse.19": "{{i18n:Strings.WitchHouse.19}}",
+				
+			}
+		},
+		//WARP TOTEM SPACECORE
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+			"Entries": {
+				"{{ModId}}_WitchDenTotem": { // The object ID
+					"TotemWarp": {
+						"Location": "{{ModId}}_WitchDen",
+						"Position": "29, 34",
+						//"Color": { "R": 0, "G": 0, "B": 255, "A": 255 }
+					}
+				},
+			},
+			"When": {
+				"HasMod": "spacechase0.SpaceCore",
+			}
+		},
 	]
 }

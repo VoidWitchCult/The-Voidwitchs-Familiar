@@ -6,10 +6,9 @@
             "Action": "EditData",
             "Target": "Characters/schedules/{{ModID}}_Faust",
             "Entries": {
-			"spring": "
-			610 Town 40 57 2/
-			1000 Town 41 57 2/
-			",
+			"spring": "{{RegularSchedule}}",
+			"Rain": "GOTO spring",
+			"GreenRain": "GOTO spring",
 			}
 		}
 	]

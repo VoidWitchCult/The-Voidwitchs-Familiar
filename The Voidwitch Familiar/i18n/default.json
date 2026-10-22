@@ -1,6 +1,29 @@
 {
 	//Strings from Maps
 	"Strings.FaustDialogue.1": "You aren't supposed to see this....oh...now I have to tell Ginnungagap about this...!",
+	"Strings.WitchHouse.1": "There is a bunch of potion bottles and tinctures spread out on most surfaces. ^Reading the labels makes your head spin for some reason...",
+	"Strings.WitchHouse.2": "It's not quite clear what's in these jars and bottles or if it's used for spellcraft or cooking...huh.",
+	"Strings.WitchHouse.3": "A purple liquid is cooking on the stove...it has quite a sweet smell. Actually...it's so sweet it's almost suffocating...",
+	"Strings.WitchHouse.4": "You try to open the fridge but something seems to hold onto the door from the inside.",
+	"Strings.WitchHouse.5": "The table invites you to sit down and have a little seance. What could go wrong?",
+	"Strings.WitchHouse.6": "You look at the telephone and it suddenly starts to ring. After a few seconds it just stops, yet you seem to hear some muffled words from the other side.",
+	"Strings.WitchHouse.7": "The bookcase is stuffed with books, scrolls and other things used for spellcraft. It's so stuffed that it almost seems as if it is groaning from all the weight...",
+	"Strings.WitchHouse.8": "More books and alike are found in this bookshelf. Though it seems that none are written in a language you know...",
+	"Strings.WitchHouse.9": "A stack of books with a lot of bookmarks inside. Most of them have a variety of topics focused on breaking the 4th wall.",
+	"Strings.WitchHouse.10": "Neatly taken notes and random bits of recipe snippets are scattered around the table. Looking closer you can see something signed with 'Faust'.",
+	"Strings.WitchHouse.11": "A tower of books that seems to almost tip over...yet something keeps it in place.",
+	"Strings.WitchHouse.12": "A big cauldron that is currently empty...there are scratch marks inside and a faint smell of brimstone and sulfur lingering in the air...",
+	"Strings.WitchHouse.13": "Freshly brewed potions that have yet to be labeled...",
+	"Strings.WitchHouse.14": "Ground-uhhh...substances in different colors. Better not to test and see what it could be...",
+	"Strings.WitchHouse.15": "A little pillow that has a particular dent in it. There is a small sign on the wall above it reading 'Fausts favorite sleeping spot'.",
+	"Strings.WitchHouse.16": "Potions, dried herbs, gems and other things are laid out in a particular way.",
+	"Strings.WitchHouse.17": "A sun shaped stone is floating above the altar. It's radiating warmth and calmness...",
+	"Strings.WitchHouse.18": "A bundle of dried herbs, flowers and alike tied together for cleansing.",
+	"Strings.WitchHouse.19": "The workspace of a certain witch. Somehow you don't dare to take a look at the personal notes...",
+	
+	//Locations
+	"Locations.WitchDen": "Witch Den",
+	"Locations.WitchHouse": "The VoidWitch's house",
 	
 	//Shop Dialogue
 	"VWW.Dialogue.1": "Master sent me here...do you want to buy something?",
@@ -250,7 +273,12 @@
 	"Faust.Dialogue.Sun.10": "I do talk to the others in town sometimes. They're awfully mundane and dull though.#$b#You're much more entertaining.$1",
 	
 	// SCHEDULE DIALOGUE
-	"Faust.Schedule.Dialogue.000": "Lorem ipsum dolor sit amet.",
-	"Faust.Schedule.Dialogue.001": "Lorem ipsum dolor sit amet.",
-	"Faust.Schedule.Dialogue.002": "Lorem ipsum dolor sit amet.",
+	"Faust.Schedule.Dialogue.000": "Maybe I could add some belladonna to this...hm...#$b#...I am sure this will be a great potion, yes.$4",
+	"Faust.Schedule.Dialogue.001": "%He does not reply to you as you stare at him on the ground.",
+	"Faust.Schedule.Dialogue.002": "Imagine just loitering around. Couldn't be me.$1",
+	"Faust.Schedule.Dialogue.003": "Ever thought about selling your soul?#$b#No? Well, depending on the type you might end up rich.$1#$b#Still no interest?",
+	"Faust.Schedule.Dialogue.004": "Excuse you, I'd like to have some time for myself right now. #$b#The drama these lost souls talk about is quite juicy.",
+	"Faust.Schedule.Dialogue.005": "I could risk it to go into the saloon but I do not want to bother with compatibility so I'm standing here.#$b#Hm? Oh, I mean...I am a brooding loner who doesn't socialize.$2",
+	"Faust.Schedule.Dialogue.006": "Hm? Oh...you want some snacks too?#$b#Here, try this one.[769]",
+	"Faust.Schedule.Dialogue.007": "Master has sent me on errands in the desert...why?$2#$b#...It's plain boring but what can I do? That ground serpent marrow won't find itself...",
 }

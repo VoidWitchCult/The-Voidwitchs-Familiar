@@ -4,7 +4,7 @@
   <image source="Custom_VoidWitchFamiliar.png" width="16" height="32"/>
  </tileset>
  <tileset firstgid="3" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source="paths.png" width="64" height="256"/>
+  <image source="paths" width="64" height="256"/>
  </tileset>
  <layer id="1" name="Back" width="1" height="2">
   <data encoding="csv">

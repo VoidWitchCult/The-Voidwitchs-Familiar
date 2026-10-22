@@ -1,5 +1,53 @@
 {
 	"Format": "2.9.0",
+	"DynamicTokens": [
+		//Schedule randomization tokens
+		
+		{
+			"Name": "HouseWorkDay",
+			"Value": "
+			610 {{ModId}}_WitchHouse 5 9 2/
+			1000 {{ModId}}_WitchHouse 23 9 0/
+			1200 {{ModId}}_WitchHouse 20 18 0 {{ModID}}_Faust_writing \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.000\"/
+			1600 {{ModId}}_WitchHouse 20 29 0 {{ModID}}_Faust_FamilyGuyDeathPose \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.001\"/
+			2000 {{ModId}}_WitchHouse 20 18 0 {{ModID}}_Faust_writing \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.000\"/
+			"
+		},
+		{
+			"Name": "TownDay",
+			"Value": "
+			610 {{ModId}}_WitchHouse 5 9 2/
+			800 Town 39 57 2 \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.002\"/
+			1030 Town 8 19 2 \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.003\"/
+			1430 Town 51 92 2 \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.004\"/
+			1700 Town 39 72 2 \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.005\"/
+			2000 Town 84 77 2/
+			"
+		},
+		{
+			"Name": "MountainDay",
+			"Value": "
+			610 {{ModId}}_WitchHouse 5 9 2/
+			1000 Mountain 49 29 1 {{ModID}}_Faust_snacking \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.006\"/
+			1430 Mountain 32 5 2 {{ModID}}_Faust_FamilyGuyDeathPose \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.001\"/
+			1700 Mountain 27 15 2/
+			"
+		},
+		{
+			"Name": "DesertDay",
+			"Value": "
+			610 {{ModId}}_WitchHouse 5 9 2/
+			700 Desert 6 23 2/
+			1100 Desert 13 10 2 {{ModID}}_Faust_impatient \"Characters\\Dialogue\\{{ModID}}_Faust:Faust.007\"/
+			1400 Desert 8 55 0/
+			1600 Desert 6 23 2/
+			"
+		},
+		{
+			"Name": "RegularSchedule",
+			"Value": "{{Random:{{HouseWorkDay}},{{TownDay}},{{MountainDay}},{{DesertDay}}}}",
+		},
+	],
 	"Changes": [
 		// MAP RELATED THINGS
 		{
@@ -24,6 +72,11 @@
 			"Action": "Load",
 			"Target": "Mods/{{ModID}}/vww_familiar_crops, Mods/{{ModID}}/vww_familiar_objects",
 			"FromFile": "assets/Items/{{TargetWithoutPath}}.png" // assets/Crops.png, assets/Objects.png
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModID}}/Custom_VoidWitchFamiliar",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.png"
 		},
 		// INCLUDES
 		{

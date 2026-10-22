@@ -7,5 +7,11 @@
     "UpdateKeys": ["nexus:18958"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "Pathoschild.ContentPatcher", "IsRequired": true
+		},
+		
+	]
 }
