@@ -15,6 +15,16 @@
 				"GreenRain": "{{i18n:Faust.Dialogue.GreenRain}}",
 				"GreenRainFinished": "{{i18n:Faust.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Faust.Dialogue.GreenRain2}}", //Year 2 Green Rain
+				"AcceptBirthdayGift_LoveA": "{{i18n:Faust.Dialogue.birthdayLoveA}}",
+				"AcceptBirthdayGift_LoveB": "{{i18n:Faust.Dialogue.birthdayLoveB}}",
+				"AcceptBirthdayGift_LikeA": "{{i18n:Faust.Dialogue.birthdayLikeA}}",
+				"AcceptBirthdayGift_LikeB": "{{i18n:Faust.Dialogue.birthdayLikeB}}",
+				"AcceptBirthdayGift_DislikeA": "{{i18n:Faust.Dialogue.birthdayDislikeA}}",
+				"AcceptBirthdayGift_DislikeB": "{{i18n:Faust.Dialogue.birthdayDislikeB}}",
+				"AcceptBirthdayGift_NeutralA": "{{i18n:Faust.Dialogue.birthdayNeutralA}}",
+				"AcceptBirthdayGift_NeutralB": "{{i18n:Faust.Dialogue.birthdayNeutralB}}",
+				"RejectMovieTicket": "{{i18n:Faust.Dialogue.RejectMovieTicket}}",
+				"RejectItem_809": "{{i18n:Faust.Dialogue.RejectMovieTicket}}",
 				
 				// 1ST OF SEASON DIALOGUE
 				"spring_1": "{{i18n:Faust.Dialogue.spring_1}}",
@@ -40,6 +50,16 @@
 				"Faust.005": "{{i18n:Faust.Schedule.Dialogue.005}}",
 				"Faust.006": "{{i18n:Faust.Schedule.Dialogue.006}}",
 				"Faust.007": "{{i18n:Faust.Schedule.Dialogue.007}}",
+			}
+		},
+		//==============================================================================================
+		{
+			"LogName": "Conversation Topics - Faust",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModID}}_Faust",
+			"Entries": 
+			{
+				"{{ModID}}_CTFaustFriendship":"{{i18n:Faust.ConverstationTopic.CTFaustFriendship}}",
 			}
 		},
 	]

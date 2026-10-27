@@ -4,7 +4,7 @@
 		// SEEDS //
 		//////////
         {
-			"LogName": "Seeds",
+			"LogName": "Objects",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -323,16 +323,7 @@
                         "color_black"
 					]
 				},
-			},
-		},
-		//////////////
-		// PRODUCE //
-		////////////
-		{
-			"LogName": "Crop Produce",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+				//PRODUCE
                 "{{ModID}}_BlackNightshadeBerries": {
                     "Name": "{{ModID}}_BlackNightshadeBerries",
                     "Displayname": "{{i18n:BlackNightshadeBerries.name}}",
@@ -669,16 +660,101 @@
                         "color_black"
 					]
 				},
-			},
-		},
-		///////////
-		// FOOD //
-		/////////
-		{
-            "LogName": "Add Food",
-			"Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+				//FORAGE
+				"{{ModID}}_CondensedLushStarFragment": {
+					"Name": "{{ModID}}_CondensedLushStarFragment",
+					"Displayname": "{{i18n:CondensedLushStarFragment.name}}",
+					"Description": "{{i18n:CondensedLushStarFragment.description}}",
+					"Type": "GREENS",
+					"Category": -23,
+					"Price": 400,
+					"Edibility": "0",
+					"Texture": "Mods/{{ModID}}/vww_familiar_objects",
+					"SpriteIndex": 96,
+					"ContextTags": [
+						"season_fall",
+						"color_green"
+					]
+				},
+				"{{ModID}}_CondensedSolarStarFragment": {
+					"Name": "{{ModID}}_CondensedSolarStarFragment",
+					"Displayname": "{{i18n:CondensedSolarStarFragment.name}}",
+					"Description": "{{i18n:CondensedSolarStarFragment.description}}",
+					"Type": "GREENS",
+					"Category": -23,
+					"Price": 400,
+					"Edibility": "0",
+					"Texture": "Mods/{{ModID}}/vww_familiar_objects",
+					"SpriteIndex": 97,
+					"ContextTags": [
+						"season_fall",
+						"color_yellow"
+					]
+				},
+				"{{ModID}}_CondensedIridiumStarFragment": {
+					"Name": "{{ModID}}_CondensedIridiumStarFragment",
+					"Displayname": "{{i18n:CondensedIridiumStarFragment.name}}",
+					"Description": "{{i18n:CondensedIridiumStarFragment.description}}",
+					"Type": "GREENS",
+					"Category": -23,
+					"Price": 400,
+					"Edibility": "0",
+					"Texture": "Mods/{{ModID}}/vww_familiar_objects",
+					"SpriteIndex": 98,
+					"ContextTags": [
+						"season_fall",
+						"color_purple"
+					]
+				},
+				"{{ModID}}_CondensedVoidStarFragment": {
+					"Name": "{{ModID}}_CondensedVoidStarFragment",
+					"Displayname": "{{i18n:CondensedVoidStarFragment.name}}",
+					"Description": "{{i18n:CondensedVoidStarFragment.description}}",
+					"Type": "GREENS",
+					"Category": -23,
+					"Price": 400,
+					"Edibility": "0",
+					"Texture": "Mods/{{ModID}}/vww_familiar_objects",
+					"SpriteIndex": 99,
+					"ContextTags": [
+						"season_fall",
+						"color_black"
+					]
+				},
+				"{{ModID}}_CondensedFrostStarFragment": {
+					"Name": "{{ModID}}_CondensedFrostStarFragment",
+					"Displayname": "{{i18n:CondensedFrostStarFragment.name}}",
+					"Description": "{{i18n:CondensedFrostStarFragment.description}}",
+					"Type": "GREENS",
+					"Category": -23,
+					"Price": 400,
+					"Edibility": "0",
+					"Texture": "Mods/{{ModID}}/vww_familiar_objects",
+					"SpriteIndex": 100,
+					"ContextTags": [
+						"season_fall",
+						"color_lightblue"
+					]
+				},
+				//MISC
+				"{{ModID}}_WitchDenTotem": {
+                    "Name": "{{ModID}}_WitchDenTotem",
+                    "DisplayName": "{{i18n:WitchDenTotem.Name}}",
+                    "Description": "{{i18n:WitchDenTotem.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 66,
+					"ContextTags": [
+						"color_black",
+						"not_placeable",
+						"totem_item",
+						"VWC_familiar_item",
+						"weather_totem_banned"
+					],
+				},
+				//FOOD
                 "{{ModID}}_BloodyAccidentFloat": {
                     "Name": "{{ModID}}_BloodyAccidentFloat",
                     "DisplayName": "{{i18n:BloodyAccidentFloat.Name}}",
@@ -1392,7 +1468,257 @@
 						"cooking_item"
 					],
 				},
-			},
-		},
+				"{{ModID}}_FaustsFavorites": {
+                    "Name": "{{ModID}}_FaustsFavorites",
+                    "DisplayName": "{{i18n:FaustsFavorites.Name}}",
+                    "Description": "{{i18n:FaustsFavorites.Description}}",
+                    "Edibility": "100",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 600,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 120,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 10,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 10,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_black",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_FriedSkullPotatoes": {
+                    "Name": "{{ModID}}_FriedSkullPotatoes",
+                    "DisplayName": "{{i18n:FriedSkullPotatoes.Name}}",
+                    "Description": "{{i18n:FriedSkullPotatoes.Description}}",
+                    "Edibility": "45",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 121,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_yellow",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PoisonedMash": {
+                    "Name": "{{ModID}}_PoisonedMash",
+                    "DisplayName": "{{i18n:PoisonedMash.Name}}",
+                    "Description": "{{i18n:PoisonedMash.Description}}",
+                    "Edibility": "15",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 122,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 5,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": -2,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_green",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_BoneBroth": {
+                    "Name": "{{ModID}}_BoneBroth",
+                    "DisplayName": "{{i18n:BoneBroth.Name}}",
+                    "Description": "{{i18n:BoneBroth.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 123,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 2,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 2,
+							"MaxStamina": 2,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": true,
+					"ContextTags": [
+						"color_white",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_VoidCake": {
+                    "Name": "{{ModID}}_VoidCake",
+                    "DisplayName": "{{i18n:VoidCake.Name}}",
+                    "Description": "{{i18n:VoidCake.Description}}",
+                    "Edibility": "75",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 124,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 3,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 5,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_black",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_BewitchedBrew": {
+                    "Name": "{{ModID}}_BewitchedBrew",
+                    "DisplayName": "{{i18n:BewitchedBrew.Name}}",
+                    "Description": "{{i18n:BewitchedBrew.Description}}",
+                    "Edibility": "45",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 125,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 0,
+							"Foraginglevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 10,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_purple",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_FrightfulPie": {
+                    "Name": "{{ModID}}_FrightfulPie",
+                    "DisplayName": "{{i18n:FrightfulPie.Name}}",
+                    "Description": "{{i18n:FrightfulPie.Description}}",
+                    "Edibility": "65",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 126,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_black",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PumpkinPancakes": {
+                    "Name": "{{ModID}}_PumpkinPancakes",
+                    "DisplayName": "{{i18n:PumpkinPancakes.Name}}",
+                    "Description": "{{i18n:PumpkinPancakes.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 127,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_orange",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_DeviousScrambledEggs": {
+                    "Name": "{{ModID}}_DeviousScrambledEggs",
+                    "DisplayName": "{{i18n:DeviousScrambledEggs.Name}}",
+                    "Description": "{{i18n:DeviousScrambledEggs.Description}}",
+                    "Edibility": "25",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 128,
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_white",
+						"cooking_item"
+					],
+				},
+				"{{ModID}}_PrimordialNectar": {
+                    "Name": "{{ModID}}_PrimordialNectar",
+                    "DisplayName": "{{i18n:PrimordialNectar.Name}}",
+                    "Description": "{{i18n:PrimordialNectar.Description}}",
+                    "Edibility": "120",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1000,
+                    "Texture": "Mods/{{ModID}}/vww_familiar_objects",
+                    "SpriteIndex": 129,
+                    "Buffs": [{
+                        "Duration": 200,
+                        "CustomAttributes": {
+                            "FarmingLevel": 2,
+							"FishingLevel": 2,
+							"MiningLevel": 2,
+							"LuckLevel": 2,
+							"Foraginglevel": 2,
+							"MaxStamina": 2,
+							"MagneticRadius": 2,
+							"Speed": 2,
+							"Defense": 2,
+							"Attack": 2,
+						}
+					}],
+                    "IsDrink": false,
+					"ContextTags": [
+						"color_black",
+						"cooking_item"
+					],
+				},
+			}
+		}
 	]
 }

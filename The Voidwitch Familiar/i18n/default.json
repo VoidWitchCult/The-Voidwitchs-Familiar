@@ -20,6 +20,7 @@
 	"Strings.WitchHouse.17": "A sun shaped stone is floating above the altar. It's radiating warmth and calmness...",
 	"Strings.WitchHouse.18": "A bundle of dried herbs, flowers and alike tied together for cleansing.",
 	"Strings.WitchHouse.19": "The workspace of a certain witch. Somehow you don't dare to take a look at the personal notes...",
+	"Strings.WitchDen.0": "Please do not fish in the mana pool. You will not catch anything thanks to the barrier.^Don't waste your time.",
 	
 	//Locations
 	"Locations.WitchDen": "Witch Den",
@@ -29,153 +30,170 @@
 	"VWW.Dialogue.1": "Master sent me here...do you want to buy something?",
 	
 	//Events
-	"CP.Letter.VoidWitch": "Greetings, mortal Farmer,^^It came to my ears that you have been doing many things in the valley.^^While I tend to keep to myself my Familiar, Faust, evinced curiosity in visit your residencial area.^^He shall bring new curiosities for the month of Samhain from my personal repository.^^As above, so below.^^-The Void Witch",
+	"CP.Letter.VoidWitch": "Greetings, mortal Farmer,^^It came to my ears that you have been doing many things in the valley.^^While I tend to keep to myself, my familiar, Faust, evinced curiosity in visit your residential area.^^He shall bring new curiosities for the month of Samhain from my personal repository.^^As above, so below.^^-The Void Witch",
+	"CP.Letter.VoidWitch.Title": "The witch beckons",
+	"CP.Letter.VoidWitch2": "Greetings, mortal Farmer,^^My familiar has been in the valley for a while now. I do hope that he has been not too much of a troublesome thing to you.^^As it so will I have a little recipe for you that might help if he is.^^If you have some time maybe make this dish and try giving it to him.^^As above, so below.^^-The Void Witch",
+	"CP.Letter.VoidWitch.Title2": "A small gesture",
 	
 	//Produce
 	"BlackNightshadeBerries.name": "Black Nightshade Berries",
 	"BlackNightshadeBerries.description": "The unripe green berries are considered toxic, but once ripened they have a sweet and savory flavor with musky, subtly sweet, herbal undertones.",
-	
 	"BlackPearlPepper.name": "Black Pearl Pepper",
 	"BlackPearlPepper.description": "With 10,000 to 30,000 Scoville it packs a good punch of heat to go along with a light citrusy-sweet flavor.",
-	
 	"DarkDimensionHyacinth.name": "Dark Dimension Hyacinth",
 	"DarkDimensionHyacinth.description": "A very dark purplish blue hyacinth which fades to almost black with age.",
-	
 	"MidnightCorn.name": "Midnight Corn",
 	"MidnightCorn.description": "The Goth cousin of regular corn. It has jet black kernels with a slightly purplish hue.",
-	
 	"MidnightPAINsies.name": "Midnight PAINsies",
 	"MidnightPAINsies.description": "A symbol of remembrance. The lover in visible pain being unable to get past their 'love in idleness'.",
-	
 	"MidnightSunflower.name": "Midnight Sunflower",
 	"MidnightSunflower.description": "A kind of sunflower that does not seek the light of the sun, despite it's name.",
-	
 	"PurpleOpalBasil.name": "Purple Opal Basil",
 	"PurpleOpalBasil.description": "A type or basil known for it's deep purple hue. Often used to naturally dye.",
-	
 	"QueenoftheNightTulip.name": "Queen of the Night Tulip",
 	"QueenoftheNightTulip.description": "A tulip with velvety, deep maroon black blooms.",
-	
 	"RedSpiderLily.name": "Red Spider Lily",
 	"RedSpiderLily.description": "A legend says, that this flower is blooming wherever two people separate forever.",
-	
 	"WineredCorn.name": "Winered Corn",
 	"WineredCorn.description": "A special type of corn in the color of red wine.",
-	
 	"WineredPAINsies.name": "Winered PAINsies",
 	"WineredPAINsies.description": "A symbol of remembrance. The lover in visible pain being unable to get past their 'love in idleness'.",
-	
 	"ColocasiaBlackMagic.name": "Colocasia Black Magic",
 	"ColocasiaBlackMagic.description": "Smoky-purple, heart-shaped leaves cascade downward from long stems. Also known as 'Black Elephant's Ear'.",
-	
 	"BlackMambaPetunia.name": "Black Mamba Petunia",
 	"BlackMambaPetunia.description": "Rare colored black velvety flowers stand out against green foliage and add elegant, dramatic color to your garden.",
-	
 	"CarnivorousCobraLily.name": "Carnivorous Cobra Lily",
 	"CarnivorousCobraLily.description": " The cobra lily, a carnivorous plant, uses deception, patience and bacteria to catch and digest its prey.",
-	
 	"BlackPrinceSnapdragon.name": "Black Prince Snapdragon",
 	"BlackPrinceSnapdragon.description": "A single-coloured, low growing snapdragon with wonderful, dark red velvety blossoms and dark green leaves.",
-	
 	"Belladonna.name": "Belladonna",
 	"Belladonna.description": "Commonly known as deadly nightshade, it is a toxic perennial herbaceous plant in the nightshade family. This plant has an involved and complex history with humans.",
-	
 	"PerillaFrutescens.name": "Perilla Frutescens",
 	"PerillaFrutescens.description": "Commonly called beefsteak plant, shiso, or perilla mint, is an upright, bushy annual plant.",
-	
 	"PurpleShamrock.name": "Purple Shamrock",
 	"PurpleShamrock.description": "Also called false shamrock, it is a species of perennial plant in the family Oxalidaceae. They naturally close at night or on cloudy days, then open back up with the morning light.",
-	
 	"PurpleArtichoke.name": "Purple Artichoke",
 	"PurpleArtichoke.description": "It's an artichoke but purple, what's more to say?",
-	
 	"HelloDarknessIris.name": "Hello Darkness Iris",
 	"HelloDarknessIris.description": "A tall bearded Iris plant with very dark flowers on tall stems. Known for their striking, frilled blooms and vibrant colors, ranging from deep purples to dark blues.",
-	
 	"MidnightRuffles.name": "Midnight Ruffles",
 	"MidnightRuffles.description": "Also called Hellebore. Double black flowers with contrasting yellow stamens.",
 	
 	//Cooking
 	"BloodyAccidentFloat.name": "Bloody Accident Float",
 	"BloodyAccidentFloat.description": "Some things are better left unsaid...especially if they taste THIS good.",
-	
 	"BloodyCandyApple.name": "Bloody Candy Apple",
 	"BloodyCandyApple.description": "A delicious non-suspicious candy apple. To die for!",
-	
 	"BoneyBisquits.name": "Boney Bisquits",
 	"BoneyBisquits.description": "Crumch!",
-	
 	"BowlOPeppers.name": "Bowl O Peppers",
 	"BowlOPeppers.description": "Finally an easy way to stuff your face with intense, hot pain. Yum!",
-	
 	"CursedCandyApple.name": "Cursed Candy Apple",
 	"CursedCandyApple.description": "...I hope you don't mind that I added a little...spice...to it.",
-	
 	"GhastlyCryptRollcake.name": "Ghastly Crypt Rollcake",
 	"GhastlyCryptRollcake.description": "A special rollcake imbued with certain magical properties. Please don't ask me about the details.",
-	
 	"GhastlyGhostCupcake.name": "Ghastly Ghost Cupcake",
 	"GhastlyGhostCupcake.description": "Ghastly, goulish...ectoplasm-filled...what a delight!",
-	
 	"GutlessGlory.name": "Gutless Glory",
 	"GutlessGlory.description": "Delicious, thirst-quenching bowl of flesh-like goodness. Consuming too much may result in-...ah, where's the fun in warning you?",
-	
 	"IridiumSnakeMalk.name": "Iridium Snake Malk",
 	"IridiumSnakeMalk.description": "I was young once too. Made mistakes, hurt people...now I have grown old and I am still doing the same things. Don't trust me.",
-	
 	"KillerChocolateTruffle.name": "Killer Chocolate Truffle",
 	"KillerChocolateTruffle.description": "You've been wronged before too, right? Revenge is sweet and a dish best served cold...eat up.",
-	
 	"MonsterBlueCupcake.name": "Monster Blue Cupcake",
 	"MonsterBlueCupcake.description": "Isn't it adorable how it's looking at you?",
-	
 	"PoisonedCandyApple.name": "Poisoned Candy Apple",
 	"PoisonedCandyApple.description": "It's fine...all things come to an end. There's always good things coming from ones ruins...",
-	
 	"PumpkinCheesecakeTrifle.name": "Pumpkin Cheesecake Trifle",
 	"PumpkinCheesecakeTrifle.description": "Delicious fall food best enjoyed cooled. Please take a bite.",
-	
 	"PumpkinCremeBrulee.Name": "Pumpkin Creme Brulee",
 	"PumpkinCremeBrulee.Description": "Set the world ablaze with this delicious treat! This is fine.",
-	
 	"RadioactiveWormSoup.name": "Radioactive Worm Soup",
 	"RadioactiveWormSoup.description": "I used to make this when I was a child...what a delight! It glows brightly in the dark...just like you will. If you survive.",
-	
 	"SpiderChocolateBrownie.name": "Spider Chocolate Brownie",
 	"SpiderChocolateBrownie.description": "Don't worry, no real spiders were harmed making this Brownie.",
-	
 	"SunsetSpells.name": "Sunset Spells",
 	"SunsetSpells.description": "A fruity refreshing drink with a magical twist!",
-	
 	"SuspiciousLiquor.name": "Suspicious Liquor",
 	"SuspiciousLiquor.description": "Wait...you weren't supposed to know about this. This is worse than moonshine...",
-	
 	"SuspiciousLurkerCookies.name": "Suspicious Lurker Cookies",
 	"SuspiciousLurkerCookies.description": "Take a careful look around...there might be something waiting for you...",
-	
 	"VampiricRoots.name": "Vampiric Roots",
 	"VampiricRoots.description": "Embrace your natural nocturnal urges...quench your thirst.",
-	
 	"VoidWitchSignatureSoup.name": "VoidWitch Signature Soup",
 	"VoidWitchSignatureSoup.description": "Yum, my favorite!",
-	
 	"WineredPepperSoup.name": "Winered Pepper Soup",
 	"WineredPepperSoup.description": "Burn bridges and friendships with this devilish hot soup.",
-	
 	"WitchyGreenCupcake.name": "Witchy Green Cupcake",
 	"WitchyGreenCupcake.description": "A child has offered me one before...very kind. I decided to leave that town peacefully on that day.",
+	"FaustsFavorites.name": "Fausts Favorites",
+	"FaustsFavorites.description": "If you ever asked what this little fella likes to eat...well, whatever this is.",
+	"FriedSkullPotatoes.name": "Fried Skull Potatoes",
+	"FriedSkullPotatoes.description": "Potatoes are a great food staple so what's better than a potato? A potato shaped into a skull of course.",
+	"PoisonedMash.name": "Poisoned Mash",
+	"PoisonedMash.description": "The poison really adds a nice zest to it, don't you think?",
+	"BoneBroth.name": "Bone Broth",
+	"BoneBroth.description": "Sometimes you just want something simple. A good base for all kinds of soups.",
+	"VoidCake.name": "Void Cake",
+	"VoidCake.description": "Fausts way to celebrate of coming into existence. It's radiating some sort of ominous presence.",
+	"BewitchedBrew.name": "Bewitched Brew",
+	"BewitchedBrew.description": "Ever wanted to feel rejuvenated and ready to face the world? This drink claims no such thing to happen but it tastes quite nice.",
+	"FrightfulPie.name": "Frightful Pie",
+	"FrightfulPie.description": "Don't be scared when you find out what's the secret ingredient.",
+	"PumpkinPancakes.name": "Pumpkin Pancakes",
+	"PumpkinPancakes.description": "A great way to start the day not just during Samhain.",
+	"DeviousScrambledEggs.name": "Devious Scrambled Eggs",
+	"DeviousScrambledEggs.description": "Utterly delicious. Do not be put off by it's color.",
+	"PrimordialNectar.name": "Primordial Nectar",
+	"PrimordialNectar.description": "The drink of gods said to be directly sourced from the primordial being. Ehh...not quite true but it does taste good enough to the original minus the mind-breaking out-of-body experience.",
+	
+	//FORAGE ETC
+	"CondensedLushStarFragment.name": "Condensed Lush Star Fragment",
+	"CondensedLushStarFragment.description": "A glistening bright fragment the color of a lush forest.",
+	"CondensedSolarStarFragment.name": "Condensed Solar Star Fragment",
+	"CondensedSolarStarFragment.description": "A bright shining fragment the color of the sunset.",
+	"CondensedIridiumStarFragment.name": "Condensed Iridium Star Fragment",
+	"CondensedIridiumStarFragment.description": "It's hue gives off the color of the sunrise.",
+	"CondensedVoidStarFragment.name": "Condensed Void Star Fragment",
+	"CondensedVoidStarFragment.description": "A fragment of the void, radiating an ominous power.",
+	"CondensedFrostStarFragment.name": "Condensed Frost Star Fragment",
+	"CondensedFrostStarFragment.description": "Cold to the touch, a light mist always surrounds it.",
+	"NAEM.name": "NAEM",
+	"NAEM.description": "NAEM",
+	"NAEM.name": "NAEM",
+	"NAEM.description": "NAEM",
+	"NAEM.name": "NAEM",
+	"NAEM.description": "NAEM",
+	
+	//WARP TOTEM
+	"WitchDenTotem.name": "Eye of Void",
+	"WitchDenTotem.description": "Use this eye to travel to the witches den.",
 	
 	//BIG CRAFTABLES
 	"weirdscarecrow.name": "Weird Scarecrow",
 	"weirdscarecrow.description": "A rather odd scarecrow that might make some jump in dim light.",
 	
-	//FAUST DIALOGUE
+	// FAUST DIALOGUE
 	// GENERAL
 	"Faust.Dialogue.DumpsterDiveComment": "Hey now, I appreciate your resourcefulness but can you do that a little bit more discreet?$6#$b#Not that I care. Just between the two of us...if you keep doing it there will be a fun surprise, just saying.",
 	"Faust.Dialogue.HitBySlingshot": "You little-!$8#$b#You know what? Have this.$5#$action AddBuff 26 -2",
 	"Faust.Dialogue.GreenRain": "Hm, yes. Master likes to collect this rain in bottles for later use quite often.#$b#It's potent in it's own way, just like moon water.",
 	"Faust.Dialogue.GreenRainFinished": "Ah, it's already over.#$b#It was quite amusing to see the mortals huddled up together because of some rain.",
 	"Faust.Dialogue.GreenRain2": "I've lost count of all the bottles of this rain is by now collected by my master...#$b#...how much to dare you drink one of the bottles?",
+	"Faust.Dialogue.birthdayLoveA": "What a thoughtful gift, thank you.#$b#You always feed me well.",
+	"Faust.Dialogue.birthdayLoveB": "Yum, just the right thing for today.#$b#Thank you for thinking of me.",
+	"Faust.Dialogue.birthdayLikeA": "Thanks for remembering my birthday, friendly entity.#$b#I know exactly what to do with this.",
+	"Faust.Dialogue.birthdayLikeB": "Oh, wow. You did quite a good job picking out a gift for me, I give my thanks.",
+	"Faust.Dialogue.birthdayDislikeA": "So you just gonna bring me a birthday gift on my birthday to my birthday party on my birthday with a birthday gift?",
+	"Faust.Dialogue.birthdayDislikeB": "Oh, you shouldn't have.#$b#No, really. You shouldn't have...$8#$b#Whose idea is it to gift such thing on someones birthday?$9",
+	"Faust.Dialogue.birthdayNeutralA": "Ah, don't worry. It's the thought that counts, not the right gift.",
+	"Faust.Dialogue.birthdayNeutralB": "Hm.#$b#Well, at least you remembered my birthday.",
+	"Faust.Dialogue.RejectMovieTicket": "My apologies, but I do not care much about these kind of things.#$b#My lack of reactions would be quite bland for you anyway. ",
+	"Faust.Gifttastes.Love": "Oh? You really do care for me, huh?#$b#What a lovely thing to give, you have my thanks.",
+	"Faust.Gifttastes.Like": "A great item. Thank you for giving it to me. It'll serve me well.",
+	"Faust.Gifttastes.Hate": "Of all the things in the world you give me this...#$b#...I thought better of you.",
+	"Faust.Gifttastes.Dislike": "Not quite what interests me...but I am sure it will serve some kind of purpose.",
+	"Faust.Gifttastes.Neutral": "Useful, yes. Do I care for it much? Mmmm...not really. Thanks anyway.",
 	
 	// DIALOGUE EXTRA
 	"Faust.Dialogue.Introduction": "Ah, hello there. Don't mind me, I am just-...hm. Existing, yes.$1",
@@ -260,7 +278,7 @@
 	"Faust.Dialogue.Sat.9": "It's never too late to start anew.#$b#Or to run away from your problems.",
 	"Faust.Dialogue.Sat.10": "I am in quite a good mood today.#$b#What about you?",
 	
-	"Faust.Dialogue.Sun.0": "Another week ends. Time flies past quite quickly, eh?#$b#Actually, time is relative and you you imagine it passing by fast because everything you experience is subjective and bound to your feelings and state of mind.",
+	"Faust.Dialogue.Sun.0": "Another week ends. Time flies past quite quickly, eh?#$b#Actually, time is relative and you imagine it passing by fast because everything you experience is subjective and bound to your feelings and state of mind.",
 	"Faust.Dialogue.Sun.1": "Another week over, another step closer to the grave.",
 	"Faust.Dialogue.Sun.2": "This were overall pretty uneventful this week, don't you think?#$b#Hm, maybe I will help out next week to make things more exciting.$8",
 	"Faust.Dialogue.Sun.3": "Any missed errands this week? I got everything done, not to toot my own horn but I like existing so I keep doing what my master tells me to.",
@@ -281,4 +299,7 @@
 	"Faust.Schedule.Dialogue.005": "I could risk it to go into the saloon but I do not want to bother with compatibility so I'm standing here.#$b#Hm? Oh, I mean...I am a brooding loner who doesn't socialize.$2",
 	"Faust.Schedule.Dialogue.006": "Hm? Oh...you want some snacks too?#$b#Here, try this one.[769]",
 	"Faust.Schedule.Dialogue.007": "Master has sent me on errands in the desert...why?$2#$b#...It's plain boring but what can I do? That ground serpent marrow won't find itself...",
+	
+	//CONVERSATION TOPICS
+	"Faust.ConverstationTopic.CTFaustFriendship": "You know...after all this time I have to admit that you've been quite a good listener.#$b#With the amount you talk to me one might think you're trying to win me over, heh.$1#$b#Everyone knows though that the way to a man's heart is through his stomach.$8",
 }

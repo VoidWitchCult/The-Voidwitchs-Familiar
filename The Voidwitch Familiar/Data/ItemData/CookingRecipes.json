@@ -29,6 +29,16 @@
 				"{{ModID}}_WineredPepperSoup": "{{ModID}}_BlackPearlPepper 4 {{ModID}}_WineredCorn 1 {{ModID}}_WineredPAINsies 1/1 1/{{ModID}}_WineredPepperSoup/none/{{i18n:WineredPepperSoup.Name}}",
 				"{{ModID}}_WitchyGreenCupcake": "(O)246 1 -6 1 (O)766 4 {{ModID}}_DarkDimensionHyacinth 2/1 1/{{ModID}}_WitchyGreenCupcake/none/{{i18n:WitchyGreenCupcake.Name}}",
 				
+				"{{ModID}}_FaustsFavorites": "439 1 556 1 769 4 {{ModID}}_CondensedVoidStarFragment 1/1 1/{{ModID}}_FaustsFavorites/none/{{i18n:FaustsFavorites.Name}}",
+				"{{ModID}}_FriedSkullPotatoes": "192 2/1 1/{{ModID}}_FriedSkullPotatoes/none/{{i18n:FriedSkullPotatoes.Name}}",
+				"{{ModID}}_PoisonedMash": "192 1 246 1 -6 1 556 1 {{ModID}}_Belladonna 1/1 1/{{ModID}}_PoisonedMash/none/{{i18n:PoisonedMash.Name}}",
+				"{{ModID}}_BoneBroth": "881 5/1 1/{{ModID}}_BoneBroth/none/{{i18n:BoneBroth.Name}}",
+				"{{ModID}}_VoidCake": "305 1 769 1 -6 1 {{ModID}}_MidnightRuffles 1/1 1/{{ModID}}_VoidCake/none/{{i18n:VoidCake.Name}}",
+				"{{ModID}}_BewitchedBrew": "{{ModID}}_Belladonna 1 {{ModID}}_PurpleShamrock 1 398 4 769 2/1 1/{{ModID}}_BewitchedBrew/none/{{i18n:BewitchedBrew.Name}}",
+				"{{ModID}}_FrightfulPie": "769 5 {{ModID}}_BlackMambaPetunia 2/1 1/{{ModID}}_FrightfulPie/none/{{i18n:FrightfulPie.Name}}",
+				"{{ModID}}_PumpkinPancakes": "276 1 -6 1 305 1/1 1/{{ModID}}_PumpkinPancakes/none/{{i18n:PumpkinPancakes.Name}}",
+				"{{ModID}}_DeviousScrambledEggs": "-5 1 {{ModID}}_Belladonna 1 308 1/1 1/{{ModID}}_DeviousScrambledEggs/none/{{i18n:DeviousScrambledEggs.Name}}",
+				"{{ModID}}_PrimordialNectar": "769 5 {{ModID}}_CondensedVoidStarFragment 2 {{ModID}}_MidnightRuffles 2/1 1/{{ModID}}_PrimordialNectar/none/{{i18n:PrimordialNectar.Name}}",
 			}
 		},
 	]

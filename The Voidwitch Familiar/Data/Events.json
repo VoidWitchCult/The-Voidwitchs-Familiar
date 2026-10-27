@@ -1,20 +1,30 @@
 {
 	"Changes":[
-		
-        {
+		{
             "Action": "EditData",
-            "Target": "Data/Events/Farm",
+            "Target": "Data/TriggerActions",
             "Entries": {
-                "30102023/C/x VoidWitchFamiliarShop": "null"
-        	}	
-        },	 
-
+                "{{ModID}}_IntroLetter": {
+                    "Id": "{{ModID}}_IntroLetter",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Any 191393 502261",
+                    "Action": "AddMail Current {{ModID}}_VoidWitchFamiliarShop"
+				},
+				"{{ModID}}_RecipeLetter": {
+                    "Id": "{{ModID}}_RecipeLetter",
+                    "Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_VoidWitchFamiliarShop, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModID}}_CTRecipeMailWait",
+                    "Action": "AddMail Current {{ModID}}_VoidWitchFaustRecipe"
+				},
+			}
+		},
 		{
             "Action": "EditData",
             "Target": "Data/Mail",	
             "Entries": {
-                "VoidWitchFamiliarShop":  "{{i18n:CP.Letter.VoidWitch}} [letterbg 2]",
-            }
-        }	
+                "{{ModID}}_VoidWitchFamiliarShop": "{{i18n:CP.Letter.VoidWitch}}[letterbg 2]%item conversationTopic {{ModID}}_CTRecipeMailWait 10 %%[#]{{i18n:CP.Letter.VoidWitch.Title}}",
+				"{{ModID}}_VoidWitchFaustRecipe": "{{i18n:CP.Letter.VoidWitch2}}[letterbg 2]%item cookingRecipe {{ModID}}_FaustsFavorites %% %item conversationTopic {{ModID}}_CTFaustFriendship 56 %%[#]{{i18n:CP.Letter.VoidWitch.Title2}}",
+			}
+		}	
 	]
 }

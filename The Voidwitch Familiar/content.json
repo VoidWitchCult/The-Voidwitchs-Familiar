@@ -65,7 +65,7 @@
             {
                 "HasSeenEvent": "191393, 502261",
 			},
-			"Update": "OnTimeChange",
+			"Update": "OnDayStart",
 		},
 		// VARIOUS LOADS
 		{

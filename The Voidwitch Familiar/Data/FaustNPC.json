@@ -62,6 +62,21 @@
 				},
 			},
 		},
+		//DISPO EDIT
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": {
+				"{{ModId}}_Faust": { 
+					"DisplayName": "Faust", 
+					"CanReceiveGifts": true, 
+					"CanSocialize": true,
+				},
+			},
+			"When": {
+				"HasReadLetter |contains={{ModID}}_VoidWitchFaustRecipe": true
+			}
+		},
 		//PORTRAITS/SPRITES
 		{
 			"LogName": "Faust Portraits",
@@ -102,13 +117,25 @@
 				}
 			}
 		},
+		//MMAP MAP STUFF
+		{
+			"Action": "EditMap",
+			"Target": "Maps/VoidWitchCult.CP.VoidWitchFamiliar_WitchDen",
+			"MapProperties": {
+				"mushymato.MMAP_WoodsLighting": "T",
+				"mushymato.MMAP_LightRays": "T",
+				"mushymato.MMAP_WoodsBaubles": "T",
+				"mushymato.MMAP_SteamOverlay": "T 0 -0.05 #50329b 0.5 4",
+				"mushymato.MMAP_WaterColor": "#9754ba",
+			}
+		},
 		//GIFTTASTE
 		{
 			"LogName": "Faust Gift Tastes",
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"{{ModID}}_Faust": "{{i18n:Faust.Gifttastes.Love}}/ID/{{i18n:Faust.Gifttastes.Like}}/ID/{{i18n:Faust.Gifttastes.Dislike}}/ID/{{i18n:Faust.Gifttastes.Hate}}/ID/{{i18n:Faust.Gifttastes.Neutral}}/ID",
+				"{{ModID}}_Faust": "{{i18n:Faust.Gifttastes.Love}}/305 308 769 795 Book_Void 896 FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Delight EastScarp_Void_Goat_Milk EastScarp_L_Void_Goat_Milk EastScarp_Void_Goat_Cheese EastScarp_Void_Goat_Cheese_Aged/{{i18n:Faust.Gifttastes.Like}}/74 879 203 279 578 768 Morghoula.AlchemistryCP_Hemlock Morghoula.AlchemistryCP_Inkberry Morghoula.AlchemistryCP_StarlightHellebore Morghoula.AlchemistryCP_WerewolfsBane Morghoula.AlchemistryCP_SunsetCastor Morghoula.AlchemistryCP_BansheesBell Morghoula.AlchemistryCP_Mistletoe Morghoula.AlchemistryCP_WinterWailer Morghoula.AlchemistryCP_AddersTongue Morghoula.AlchemistryCP_DollsEyes Morghoula.AlchemistryCP_NightsShade Morghoula.AlchemistryCP_BleedingHeart Morghoula.AlchemistryCP_DriedHemlock Morghoula.AlchemistryCP_DriedInkberry Morghoula.AlchemistryCP_DriedStarlightHellebore Morghoula.AlchemistryCP_DriedWerewolfsBane Morghoula.AlchemistryCP_DriedSunsetCastor Morghoula.AlchemistryCP_DriedBansheesBell Morghoula.AlchemistryCP_DriedMistletoe Morghoula.AlchemistryCP_DriedWinterWailer Morghoula.AlchemistryCP_DriedAddersTongue Morghoula.AlchemistryCP_DriedDollsEyes Morghoula.AlchemistryCP_DriedNightsShade Morghoula.AlchemistryCP_DriedBleedingHeart Morghoula.AlchemistryCP_HemlockPowder Morghoula.AlchemistryCP_InkberryPowder Morghoula.AlchemistryCP_StarlightHelleborePowder Morghoula.AlchemistryCP_WerewolfsBanePowder Morghoula.AlchemistryCP_SunsetCastorPowder Morghoula.AlchemistryCP_BansheesBellPowder Morghoula.AlchemistryCP_MistletoePowder Morghoula.AlchemistryCP_WinterWailerPowder Morghoula.AlchemistryCP_AddersTonguePowder Morghoula.AlchemistryCP_DollsEyesPowder Morghoula.AlchemistryCP_NightsShadePowder Morghoula.AlchemistryCP_BleedingHeartPowder Morghoula.AlchemistryCP_HemlockTincture Morghoula.AlchemistryCP_InkberryTincture Morghoula.AlchemistryCP_StarlightHelleboreTincture Morghoula.AlchemistryCP_WerewolfsBaneTincture Morghoula.AlchemistryCP_SunsetCastorTincture Morghoula.AlchemistryCP_BansheesBellTincture Morghoula.AlchemistryCP_MistletoeTincture Morghoula.AlchemistryCP_WinterWailerTincture Morghoula.AlchemistryCP_AddersTongueTincture Morghoula.AlchemistryCP_DollsEyesTincture Morghoula.AlchemistryCP_NightsShadeTincture Morghoula.AlchemistryCP_BleedingHeartTincture Morghoula.AlchemistryCP_LostSouls Morghoula.AlchemistryCP_FalseMorel Morghoula.AlchemistryCP_WizardsEye Morghoula.AlchemistryCP_FairieWings Morghoula.AlchemistryCP_RedSmilers Morghoula.AlchemistryCP_NightCap Morghoula.AlchemistryCP_HellfireBolete Morghoula.AlchemistryCP_SwampLighter Morghoula.AlchemistryCP_DriedDawnsingerToadstool Morghoula.AlchemistryCP_DriedLunarGlowcap Morghoula.AlchemistryCP_DriedInkCap Morghoula.AlchemistryCP_DriedLostSouls Morghoula.AlchemistryCP_DriedMeteorCap Morghoula.AlchemistryCP_DriedFalseMorel Morghoula.AlchemistryCP_DriedWizardsEye Morghoula.AlchemistryCP_DriedFairieWings Morghoula.AlchemistryCP_DriedRedSmilers Morghoula.AlchemistryCP_DriedNightCap Morghoula.AlchemistryCP_DriedSunriseGlory Morghoula.AlchemistryCP_DriedCapOLantern Morghoula.AlchemistryCP_DriedHellfireBolete Morghoula.AlchemistryCP_DriedSwampLighter Morghoula.AlchemistryCP_DriedBeachedOyster Morghoula.AlchemistryCP_DriedDragonRoot Morghoula.AlchemistryCP_DriedMoonBerry Morghoula.AlchemistryCP_DawnsingerToadstoolPowder Morghoula.AlchemistryCP_LunarGlowcapPowder Morghoula.AlchemistryCP_InkCapPowder Morghoula.AlchemistryCP_LostSoulsPowder Morghoula.AlchemistryCP_MeteorCapPowder Morghoula.AlchemistryCP_FalseMorelPowder Morghoula.AlchemistryCP_WizardsEyePowder Morghoula.AlchemistryCP_FairieWingsPowder Morghoula.AlchemistryCP_RedSmilersPowder Morghoula.AlchemistryCP_NightCapPowder Morghoula.AlchemistryCP_SunriseGloryPowder Morghoula.AlchemistryCP_CapOLanternPowder Morghoula.AlchemistryCP_HellfireBoletePowder Morghoula.AlchemistryCP_SwampLighterPowder Morghoula.AlchemistryCP_BeachedOysterPowder Morghoula.AlchemistryCP_DragonRootPowder Morghoula.AlchemistryCP_MoonBerryPowder Morghoula.AlchemistryCP_DawnsingerToadstoolTincture Morghoula.AlchemistryCP_LunarGlowcapTincture Morghoula.AlchemistryCP_InkCapTincture Morghoula.AlchemistryCP_LostSoulsTincture Morghoula.AlchemistryCP_MeteorCapTincture Morghoula.AlchemistryCP_FalseMorelTincture Morghoula.AlchemistryCP_WizardsEyeTincture Morghoula.AlchemistryCP_FairieWingsTincture Morghoula.AlchemistryCP_RedSmilersTincture Morghoula.AlchemistryCP_NightCapTincture Morghoula.AlchemistryCP_SunriseGloryTincture Morghoula.AlchemistryCP_CapOLanternTincture Morghoula.AlchemistryCP_HellfireBoleteTincture Morghoula.AlchemistryCP_SwampLighterTincture Morghoula.AlchemistryCP_BeachedOysterTincture Morghoula.AlchemistryCP_DragonRootTincture Morghoula.AlchemistryCP_MoonBerryTincture Morghoula.AlchemistryCP_BirdSkull Morghoula.AlchemistryCP_DeerHoof Morghoula.AlchemistryCP_RottingBrain Morghoula.AlchemistryCP_ForkedLasher Morghoula.AlchemistryCP_TrappedSoul Morghoula.AlchemistryCP_InsectMandible Morghoula.AlchemistryCP_EngorgedTick Morghoula.AlchemistryCP_VampireFang Morghoula.AlchemistryCP_ShadowEye Morghoula.AlchemistryCP_IridiumCrabClaw Morghoula.AlchemistryCP_ZombieFish Morghoula.AlchemistryCP_Lamprey Morghoula.AlchemistryCP_VampireAnemone Morghoula.AlchemistryCP_MysticEctoplasm Morghoula.AlchemistryCP_WildEctoplasm Morghoula.AlchemistryCP_AquaticEctoplasm Morghoula.AlchemistryCP_NewtsTail Morghoula.AlchemistryCP_FreshSqueezedLamprey Morghoula.AlchemistryCP_NewtsTail Morghoula.AlchemistryCP_PoisonPine Morghoula.AlchemistryCP_Newt Morghoula.AlchemistryCP_BoneDust Morghoula.AlchemistryCP_Lye Morghoula.AlchemistryCP_Glycerin Morghoula.AlchemistryCP_EmptyFlask Morghoula.AlchemistryCP_ManaOrb/{{i18n:Faust.Gifttastes.Dislike}}//{{i18n:Faust.Gifttastes.Hate}}//{{i18n:Faust.Gifttastes.Neutral}}/-7 -4 -8 -12 -15 -16 -19 -22 -24 -25 -28 -74 78 169 246 247 309 310 311 403 419 423 535 536 537 725 726 749 271 Book_PriceCatalogue category_trinket -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 265 909 910",
 			}
 		},
 		//BLANK LOADS
@@ -155,15 +182,15 @@
 					"CanHaveGreenRainSpawns": false,
 					"ArtifactSpots": [
 						{
-                            "Chance": 0.2,
-                            "ApplyGenerousEnchantment": true,
-                            "OneDebrisPerDrop": true,
-                            "Precedence": 0,
-                            "ContinueOnDrop": true,
-                            "Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-                            "MinStack": 1,
-                            "MaxStack": 1
+							"Chance": 0.2,
+							"ApplyGenerousEnchantment": true,
+							"OneDebrisPerDrop": true,
+							"Precedence": 0,
+							"ContinueOnDrop": true,
+							"Id": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+							"MinStack": 1,
+							"MaxStack": 1
 						},
 						{
 							"Chance": 0.25,
@@ -182,22 +209,42 @@
 					"Fish":  [],
 					"Forage": [
 						{
-                            "Id": "(O)397",
-                            "ItemId": "(O)397", //Sea  Urchin
-                            "Chance": 0.1
+							"Id": "{{ModID}}_CondensedLushStarFragment",
+							"ItemId": "{{ModID}}_CondensedLushStarFragment", 
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModID}}_CondensedSolarStarFragment",
+							"ItemId": "{{ModID}}_CondensedSolarStarFragment", 
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModID}}_CondensedIridiumStarFragment",
+							"ItemId": "{{ModID}}_CondensedIridiumStarFragment", 
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModID}}_CondensedVoidStarFragment",
+							"ItemId": "{{ModID}}_CondensedVoidStarFragment", 
+							"Chance": 0.1
+						},
+						{
+							"Id": "{{ModID}}_CondensedFrostStarFragment",
+							"ItemId": "{{ModID}}_CondensedFrostStarFragment", 
+							"Chance": 0.1
 						},
 					],
 					"MinDailyWeeds": 0,
 					"MaxDailyWeeds": 0,
 					"FirstDayWeedMultiplier": 0,
-					"MinDailyForageSpawn": 2,
-					"MaxDailyForageSpawn": 20,
-					"MaxSpawnedForageAtOnce": 10,
+					"MinDailyForageSpawn": 5,
+					"MaxDailyForageSpawn": 50,
+					"MaxSpawnedForageAtOnce": 50,
 					"ChanceForClay": 0.05,
 					"Music": [
 						{
-                            "Id": "{{ModId}}_WitchDenMusic",
-                            "Track": "junimoKart_mushroomMusic",
+							"Id": "{{ModId}}_WitchDenMusic",
+							"Track": "junimoKart_mushroomMusic",
 						}
 					],
 					"MusicDefault": null,
@@ -205,7 +252,7 @@
 					"MusicIgnoredInRain": true,
 				},
 				"{{ModId}}_WitchHouse": {
-					"DisplayName": "{{i18n:Locations.MermaidHome}}",
+					"DisplayName": "{{i18n:Locations.WitchHouse}}",
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModID}}_WitchHouse",
 					},
@@ -220,8 +267,8 @@
 					"Forage": [],
 					"Music": [
 						{
-                            "Id": "{{ModId}}_WitchHouseMusic",
-                            "Track": "junimoKart_ghostMusic",
+							"Id": "{{ModId}}_WitchHouseMusic",
+							"Track": "junimoKart_ghostMusic",
 						}
 					],
 					"MusicDefault": null,
@@ -353,6 +400,7 @@
 				"{{ModID}}.WitchHouse.17": "{{i18n:Strings.WitchHouse.17}}",
 				"{{ModID}}.WitchHouse.18": "{{i18n:Strings.WitchHouse.18}}",
 				"{{ModID}}.WitchHouse.19": "{{i18n:Strings.WitchHouse.19}}",
+				"{{ModID}}.WitchDen.0": "{{i18n:Strings.WitchDen.0}}",
 				
 			}
 		},
@@ -374,4 +422,4 @@
 			}
 		},
 	]
-}
+}							
